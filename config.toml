@@ -16,7 +16,7 @@ DefaultContentLanguage = "fr"
   email = ""
   # Navigation
   [languages.en.navigation]
-    brand = "Elate"
+    brand = "<img class='logo'/>"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
@@ -24,7 +24,7 @@ DefaultContentLanguage = "fr"
     about = "About"
     contact = "Contact"
   [languages.fr.navigation]
-    brand = "Elate fr"
+    brand = "<img class='logo'/>"
     home = "Accueil"
     work = "Travaux"
     testimonials = "Testimonials"
