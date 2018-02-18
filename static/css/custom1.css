@@ -2,10 +2,14 @@
     padding-top: 0;
 }
 
+#fh5co-header.navbar-fixed-top .navbar-brand {
+    padding-top: 4px;
+}
+
 #fh5co-header .navbar-brand img {
     content: url("../images/logo_w.png");
 }
 
 #fh5co-header.navbar-fixed-top .navbar-brand img {
-    content: url("../images/logo_b.png");
+    content: url("../images/logo_be.png");
 }
