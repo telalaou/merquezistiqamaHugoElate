@@ -62,15 +62,15 @@
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
     
     <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href='{{ "css/animate.css" | relURL }}'>
     <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href='{{ "css/icomoon.css" | relURL }}'>
     <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href='{{ "css/simple-line-icons.css" | relURL }}'>
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href='{{ "css/magnific-popup.css" | relURL }}'>
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href='{{ "css/bootstrap.css" | relURL }}'>
 
     <!-- 
     Default Theme Style 
@@ -85,7 +85,7 @@
     7. green.css
 
     -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'>
 
     <!--
        custom css files can be configured in config.toml:
@@ -93,12 +93,12 @@
           custom_css = ["css/foo.css", "css/bar.css"]
      -->
     {{ range .Site.Params.custom_css }}
-    <link rel="stylesheet" href="{{ . }}">
+    <link rel="stylesheet" href="{{ . | relURL }}">
     {{ end }}
 
     <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src='{{ "js/modernizr-2.6.2.min.js" | relURL}}'></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
+    <script src='{{ "js/respond.min.js" | relURL}}'></script>
     <![endif]-->
