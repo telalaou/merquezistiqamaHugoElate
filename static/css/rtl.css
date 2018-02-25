@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+    .navbar-header {
+        float: right;
+    }
+}
+
+#navbar {
+    float: left;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dropdown > .btn-link {
+    border-left: 0;
+    border-right: 1px solid;
+}

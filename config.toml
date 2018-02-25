@@ -1,14 +1,31 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
-languageCode = "en-us"
-theme = "elate"
 DefaultContentLanguage = "fr"
+#DefaultContentLanguageInSubdir = true
+theme = "elate"
 
+[languages]
+[languages.en]
+title = "Al Istiqamah Institute"
+languageCode = "en-us"
+languageName = "English"
+
+[languages.fr]
+title = "Institut Al Istiqamah"
+languageCode = "fr-FR"
+languageName = "France"
+
+[languages.ar]
+title = "مركزالاستيقما"
+languageCode = "ar"
+languageName = "العربية"
+
+[languages.ar.params]
+  custom_css = ["css/custom1.css", "css/rtl.css"]
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/custom1.css"]
 
   # Meta
   author = ""
@@ -31,6 +48,14 @@ DefaultContentLanguage = "fr"
     services = "Services"
     about = "A propos"
     contact = "Contact"
+  [languages.ar.navigation]
+      brand = "<img class='logo'/>"
+      home = "الرئيسية"
+      work = "أعمال"
+      testimonials = "الشهادات"
+      services = "الخدمات"
+      about = "عنا"
+      contact = "اتصال"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -49,11 +74,14 @@ DefaultContentLanguage = "fr"
 
   # Hero section
   [languages.en.hero]
-    title = "Merkez Al Istiqamah"
+    title = "Al Istiqamah Institute"
     subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
   [languages.fr.hero]
-      title = "Merkez Al Istiqamah"
-      subtitle = "Apprenez l’arabe depuis votre domicile en direct de l'Egypte avec des professeurs natifs ayant l’expérience de l’enseignement aux non-arabophones."
+    title = "Institut Al Istiqamah"
+    subtitle = "Apprenez l’arabe depuis votre domicile en direct de l'Egypte avec des professeurs natifs ayant l’expérience de l’enseignement aux non-arabophones."
+  [languages.ar.hero]
+    title = "مركزالاستيقما"
+    subtitle = "تعلم اللغة العربية من منزلك مباشرة من مصر مع مدرسين أصليين ذوي خبرة تعليمية لغير الناطقين بها."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -111,7 +139,7 @@ DefaultContentLanguage = "fr"
       img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -256,7 +284,7 @@ DefaultContentLanguage = "fr"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 

@@ -1,0 +1,11 @@
+<li class="dropdown">
+  <button class="btn btn-link dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    {{.Site.Language}}
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    {{ range $.Site.Home.AllTranslations }}
+      <li><a class="external" href="{{ .Permalink }}">{{ .Language | upper }}</a></li>
+    {{ end }}
+  </ul>
+</li>
