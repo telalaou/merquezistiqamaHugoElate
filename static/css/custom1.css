@@ -1,21 +1,21 @@
 #fh5co-header .navbar-brand {
-    padding-top: 0;
-}
-
-#fh5co-header.navbar-fixed-top .navbar-brand {
-    padding-top: 4px;
+    padding-top: 2px;
 }
 
 #fh5co-header .navbar-brand div {
     background-image: url("../images/logo_w.png");
-    width: 83px;
-    height: 57px;
+    width: 76px;
+    height: 52px;
+}
+
+@media screen and (max-width: 768px) {
+    #fh5co-header .navbar-brand div {
+        background-image: url("../images/logo_be.png");
+    }
 }
 
 #fh5co-header.navbar-fixed-top .navbar-brand div {
     background-image: url("../images/logo_be.png");
-    width: 76px;
-    height: 52px;
 }
 
 .dropdown-menu {
@@ -35,6 +35,16 @@
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+    .dropdown > .btn-link {
+        color: rgba(0, 0, 0, 0.5) !important;
+        border-left: 0;
+        border-right: 0;
+        padding-left: 15px;
+        padding-top: 0;
+        margin-top: 10px;
+    }
+}
 #fh5co-header.navbar-fixed-top #navbar .dropdown > .btn-link {
     color: rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0, 0.5);
