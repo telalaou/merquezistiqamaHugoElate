@@ -30,7 +30,7 @@ languageName = "العربية"
   # Meta
   author = ""
   description = ""
-  email = ""
+  email = "test000.istiqama@gmail.com"
   # Navigation
   [languages.en.navigation]
     brand = "<div class='logo'></div>"
@@ -75,7 +75,7 @@ languageName = "العربية"
   # Hero section
   [languages.en.hero]
     title = "Al Istiqamah Institute"
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    subtitle = "Learn Arabic from your home live from Egypt with native teachers with teaching experience to non-Arabic speakers."
   [languages.fr.hero]
     title = "Institut Al Istiqamah"
     subtitle = "Apprenez l’arabe depuis votre domicile en direct de l'Egypte avec des professeurs natifs ayant l’expérience de l’enseignement aux non-arabophones."
@@ -321,26 +321,71 @@ languageName = "العربية"
       speed = 5000
 
   # Contact section
-  [params.contact]
+  [languages.fr.contact]
     enable = true
     map = true
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contact"
+    description = "Pour toutes questions, ou demande de devis, envoyez-nous un message."
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Le Caire, Egypte"],
+        ["icon-phone", "+201007676132"],
+        ["icon-envelope", "markezalistiqama@gmail.com"],
+        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
+    # Available icons: http://simplelineicons.com/
+    name = "Nom"
+    email = "Email"
+    phone = "Téléphone"
+    message = "Message"
+    button = "Envoyer"
+
+  [languages.en.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Contact"
+    description = "For any questions, or request a quote, send us a message."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Le Caire, Egypte"],
+        ["icon-phone", "+201007676132"],
+        ["icon-envelope", "markezalistiqama@gmail.com"],
+        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
+      ]
+
+    # Available icons: http://simplelineicons.com/
     name = "Name"
     email = "Email"
     phone = "Phone"
     message = "Message"
-    button = "Send message"
+    button = "Send"
+
+  [languages.ar.contact]
+    enable = true
+    map = true
+    form = true
+    title = "اتصال"
+    description = "لأية أسئلة ، أو طلب عرض أسعار ، أرسل لنا رسالة."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "القاهرة ، مصر"],
+        ["icon-phone", "+201007676132"],
+        ["icon-envelope", "markezalistiqama@gmail.com"],
+        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
+      ]
+
+    # Available icons: http://simplelineicons.com/
+    name = "اسم"
+    email = "البريد الإلكتروني"
+    phone = "هاتف"
+    message = "رسالة"
+    button = "إبعث"
 
   # Footer section
   [params.footer]

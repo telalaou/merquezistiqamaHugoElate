@@ -1,3 +1,10 @@
+/* input placeholder to right */
+::-webkit-input-placeholder { text-align:right; }
+::-moz-placeholder { text-align:right; }
+:-moz-placeholder { text-align:right; }
+:-ms-input-placeholder { text-align:right; }
+
+/* navbar menu */
 @media (min-width: 769px) {
     .navbar-header {
         float: right;
@@ -16,4 +23,24 @@
         border-left: 0;
         border-right: 1px solid;
     }
+}
+
+/* contact */
+@media (min-width: 769px) {
+    #fh5co-contact .row-bottom-padded-md {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+#fh5co-contact .fh5co-contact-info li {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 50px;
+}
+#fh5co-contact .fh5co-contact-info li i {
+    left: auto;
+    right: 0;
+}
+#fh5co-contact .btn {
+    float: right;
 }
