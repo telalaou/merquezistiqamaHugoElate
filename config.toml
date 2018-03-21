@@ -89,54 +89,79 @@ languageName = "العربية"
 
 
   [[languages.en.params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Online course"
+    description = "In a few clicks from home, you join your teacher for a live lesson from Egypt."
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    button = "Learn more"
+    icon = "icon-home"
     img = "img_7.jpg"
     weight = 0
 
   [[languages.fr.params.intro.item]]
-    title = "Plan fr"
-    description = "Très loin, derrière le mot montagnes, loin des pays Vokalia et Consonantia, vivent les textes aveugles."
+    title = "Cours en ligne"
+    description = "En quelques clics, vous rejoignez votre professeur pour un cours en direct de l’Egypte."
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    button = "En savoir+"
+    icon = "icon-home"
+    img = "img_7.jpg"
+    weight = 0
+
+  [[languages.ar.params.intro.item]]
+    title = "دورة على الانترنت"
+    description = "في بضع نقرات ، تنضم إلى معلمك للحصول على درس مباشر من مصر."
+    url = "#"
+    button = "للمزيد من المعلومات"
+    icon = "icon-home"
     img = "img_7.jpg"
     weight = 0
 
   [[languages.en.params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Study at your own pace"
+    description = "Choose the formula that suits you best by combining work, training and family."
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    button = "Learn more"
+    icon = "icon-clock"
     img = "img_8.jpg"
 
   [[languages.fr.params.intro.item]]
-      title = "Developpez"
-      description = "Très loin, derrière le mot montagnes, loin des pays Vokalia et Consonantia, vivent les textes aveugles."
-      url = "#"
-      button = "Cliquer ici"
-      icon = "icon-wrench"
-      img = "img_8.jpg"
+    title = "Etudiez à votre rythme"
+    description = "Choisissez la formule qui vous convient le mieux en conciliant travail, formation et famille."
+    url = "#"
+    button = "En savoir+"
+    icon = "icon-clock"
+    img = "img_8.jpg"
+
+  [[languages.ar.params.intro.item]]
+    title = "دراسة على وتيرتك الخاصة"
+    description = "اختر الصيغة التي تناسبك من خلال الجمع بين العمل والتدريب والعائلة."
+    url = "#"
+    button = "للمزيد من المعلومات"
+    icon = "icon-clock"
+    img = "img_8.jpg"
 
   [[languages.en.params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "In total immersion"
+    description = "This known method is undoubtedly the most effective way to progress quickly."
     url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
+    button = "Learn more"
+    icon = "icon-bubbles"
     img = "img_10.jpg"
 
   [[languages.fr.params.intro.item]]
-      title = "Lancer"
-      description = "Très loin, derrière le mot montagnes, loin des pays Vokalia et Consonantia, vivent les textes aveugles."
-      url = "#"
-      button = "Pourquoi nous choisir ?"
-      icon = "icon-rocket"
-      img = "img_10.jpg"
+    title = "En immersion totale"
+    description = "Cette méthode connue est sans aucun doute la plus efficace pour progresser rapidement."
+    url = "#"
+    button = "En savoir+"
+    icon = "icon-bubbles"
+    img = "img_10.jpg"
+
+  [[languages.ar.params.intro.item]]
+    title = "في الغمر الكلي"
+    description = "هذه الطريقة المعروفة هي بلا شك الطريقة الأكثر فعالية للتقدم بسرعة."
+    url = "#"
+    button = "للمزيد من المعلومات"
+    icon = "icon-bubbles"
+    img = "img_10.jpg"
 
   [params.intro.video]
     enable = false
