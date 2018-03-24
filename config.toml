@@ -67,10 +67,10 @@ languageName = "العربية"
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+    [[menu.postpend]]
+      url = "faq"
+      name = "FAQ"
+      identifier = "faq"
 
   # Hero section
   [languages.en.hero]

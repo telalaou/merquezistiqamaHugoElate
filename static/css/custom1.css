@@ -62,3 +62,10 @@
 #fh5co-header #navbar .dropdown-menu li a {
     color: #000;
 }
+
+.intro-content, .intro-content .text-wrap {
+    height: 400px !important;
+}
+#fh5co-content {
+    padding: 4em 0;
+}

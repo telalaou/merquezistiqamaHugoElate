@@ -99,7 +99,8 @@
 	var navigationSection = function() {
 
 		var $section = $('section[data-section]');
-		
+        navActive($section.data('section')); // for external link
+
 		$section.waypoint(function(direction) {
 		  	
 		  	if (direction === 'down') {
