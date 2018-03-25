@@ -43,7 +43,7 @@ languageName = "العربية"
   [languages.fr.navigation]
     brand = "<div class='logo'></div>"
     home = "Accueil"
-    work = "Travaux"
+    work = "Programmes"
     testimonials = "Testimonials"
     services = "Services"
     about = "A propos"
@@ -172,46 +172,59 @@ languageName = "العربية"
 
   # Work section
   [params.work]
-    enable = false
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    enable = true
+    title = "Programes"
+    description = " Ubaī ibn Ka’b (رضي الله عنه) dit : <br />« Apprend l’arabe comme tu apprends à mémoriser le Coran » <br />(Ibn Abī Šaībat, Al-Muṣannaf 7/150)"
+    footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "tome1femme_final.png"
+      alt = "Tome 1 de Médine"
+      title = "Tome 1 de Medine"
+      subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "tome2MedineFemme.png"
+      alt = "Tome 2 de Médine"
+      title = "Tome 2 de Medine"
+      subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+        img = "tome2MedineFemme.png"
+        alt = "Tome 3 de Médine"
+        title = "Tome 3 de Medine"
+        subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
+
+    [[params.work.row]]
+      img = "nouranyaFemmes.png"
+      alt = "Qua'ida an-nouraniyah"
+      title = "An Nouraniyah"
+      subtitle = "Une méthode authentique qui apprend à lire le Coran avec Tajwid."
+
+    [[params.work.row]]
+      img = "alajroumya.png"
+      alt = "alajroumya"
+      title = "Explication d'al Ajouroumiyah"
+      subtitle = "Avec les explications de cheikh Otheymin, Moqbil,…"
 
     [[params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      title = "An Nahwou al-wâdih"
+      subtitle = ""
 
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      title = "Al Balagha al Wâdihah"
+      subtitle = ""
 
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+     [[params.work.row]]
+      img = "tabirHommes.png"
+      alt = "ta'bir a-chafawi"
+      title = "Expression orale"
+      subtitle = "Apprenez à communiquer en arabe dans n'importe quel pays arabophone."
+
 
   # Testimonials section
   [params.testimonials]
@@ -242,7 +255,7 @@ languageName = "العربية"
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
