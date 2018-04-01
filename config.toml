@@ -44,7 +44,7 @@ languageName = "العربية"
     brand = "<div class='logo'></div>"
     home = "Accueil"
     work = "Programmes"
-    testimonials = "Testimonials"
+    testimonials = "Témoinages"
     services = "Services"
     about = "A propos"
     contact = "Contact"
@@ -173,7 +173,7 @@ languageName = "العربية"
   # Work section
   [params.work]
     enable = true
-    title = "Programes"
+    title = "Programmes"
     description = " Ubaī ibn Ka’b (رضي الله عنه) dit : <br />« Apprend l’arabe comme tu apprends à mémoriser le Coran » <br />(Ibn Abī Šaībat, Al-Muṣannaf 7/150)"
     footertext = ''
 
@@ -228,27 +228,43 @@ languageName = "العربية"
 
   # Testimonials section
   [params.testimonials]
-    enable = false
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    enable = true
+    title = "Témoinages"
+    description = "Voici quelques avis nos anciens élèves."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo;Très bonne pédagogie de cours et très bénéfique. Par Allah si l'élève est impliqué et sérieux dans ses révisions il peut très vite progresser et avoir une conversation même basique en arabe.&rdquo;"
+      person = 'Salim <a href="javascript: void(0)" target="_blank">Elève</a> <span class="subtext">Langue arabe</span>'
       img = "person1.jpg"
-      alt = "Person1"
+      alt = "Salim"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo; MachaAllah c'est très enrichissant, précis et concis. Le professeur est très pédagogue le concept de cours en ligne avec Zoom est étonnemment instructive avec les notes du professeur.<br />Le professeur demande systématiquement si nous avons bien compris ce qui permet d'avancer sans mauvaise compréhension ou erreur de compréhension.&rdquo;"
+      person = 'Yusuf Abu Qais <a href="javascript: void(0)" target="_blank">Elève</a> <span class="subtext">Langue arabe</span>'
       img = "person2.jpg"
-      alt = "Person2"
+      alt = "Yusuf Abu Qais"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+        quote = "&ldquo;Assalam 'aleiykoum, les cours sont tops et le professeur est top Macha Allah.Je recommande très fortement le tome 1 de Médine à ceux qui savent lire l'arabe.<br />De plus, parfois le professeur demande aux élèves qui comprennent le mieux de traduire pour les les autres élèves. Le prix est plus qu'abordable je remercie l'institut car cela permet à beaucoup de frères et sœurs d'apprendre.&rdquo;"
+        person = 'Un élève  <span class="subtext">Tome 1 de médine</span>'
+        img = "person3.jpg"
+        alt = "Person3"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Je recommande mille fois.&rdquo;"
+      person = 'Un élève  <span class="subtext">Langue arabe</span>'
       img = "person3.jpg"
       alt = "Person3"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Quallah vous facilite et nous facilite l'apprentissage de la langue arabe.&rdquo;"
+      person = 'Un élève  <span class="subtext">Langue arabe</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+
+
+
 
 
 
@@ -280,14 +296,14 @@ languageName = "العربية"
 
   # About section
   [params.about]
-    enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    enable = false
+    title = "Avis"
+    description = "Voici quelques avis nos anciens élèves."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Salim"
+      position = ""
+      description = "Très bonne pédagogie de cours et très bénéfique. Par Allah si l'élève est impliqué et sérieux dans ses révisions il peut très vite progresser et avoir une conversation même basique en arabe."
       img = "person1.jpg"
       alt = "Person1"
       social = [
@@ -297,9 +313,9 @@ languageName = "العربية"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
+      name = "Yusuf Abu Qais"
       position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "MachaAllah c'est très enrichissant, précis et concis. Le professeur est très pédagogue le concept de cours en ligne avec Zoom est étonnamment instructive avec les notes du professeur.<br />Le professeur demande systématiquement si nous avons bien compris ce qui permet d'avancer sans mauvaise compréhension ou erreur de compréhension."
       img = "person2.jpg"
       alt = "Person2"
       social = [
@@ -311,7 +327,31 @@ languageName = "العربية"
     [[params.about.item]]
       name = "Larry Ben"
       position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Je recommande mille fois."
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+      [[params.about.item]]
+      name = ""
+      position = ""
+      description = "Quallah vous facilite et nous facilite l'apprentissage de la langue arabe."
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+      [[params.about.item]]
+      name = ""
+      position = "Tome 1 de médine."
+      description = "Assalam 'aleiykoum, les cours sont tops et le professeur est top MachaAllah.Je recommande très fortement le tome 1 de Médine à ceux qui savent lire l'arabe.<br />De plus, parfois le professeur demande aux élèves qui comprennent le mieux de traduire pour les les autres élèves. Le prix est plus qu'abordable je remercie l'institut car cela permet à beaucoup de frères et sœurs d'apprendre."
       img = "person3.jpg"
       alt = "Person3"
       social = [
