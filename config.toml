@@ -37,7 +37,7 @@ languageName = "العربية"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
-    services = "Services"
+    services = "Services proposés"
     about = "About"
     contact = "Contact"
   [languages.fr.navigation]
@@ -45,7 +45,7 @@ languageName = "العربية"
     home = "Accueil"
     work = "Programmes"
     testimonials = "Témoinages"
-    services = "Services"
+    services = "Services proposés"
     about = "A propos"
     contact = "Contact"
   [languages.ar.navigation]
@@ -271,34 +271,36 @@ languageName = "العربية"
 
   # Services section
   [params.services]
-    enable = false
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    enable = true
+    title = "Services proposés"
+    description = "Les cours sont destinés aux hommes, femmes et enfants et sont non mixtes."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Qualité d'enseignement."
+      description = "Vous avez la possibilité prendre des cours individuels, en binôme ou en groupe. Dans un souci d'optimisation chaque classe est limitée à 5 élèves maximum."
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Tarifs arabe & coran"
+      description = "<ul><li>Cours individuel : 4 € / heure.</li><li>Cours à deux : 2,5 € / heure.</li><li>Cours collectif (de 3 à 5 élèves maximum) : 2 € / heure</li></ul>"
       icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    [[params.services.item]]
+        title = "Examens."
+        description = "Les élèves devront passer un examen finale orale et ou écrit. Vous devrez passer également un examen d'entrée selon la classe choisie."
+        icon = "icon-anchor"
+
+
+    [[params.services.item]]
+      title = "Plateforme utilisées"
+      description = "Les cours se déroulent sur les plateformes <a style='color: #fff;' href='https://zoom.us/download'>Zoom</a> et <a style='color:#fff' href='https://www.skype.com/fr/get-skype/'>Skype</a>.<br />Un lien de session de la plateforme de meeting <a style='color: #fff;' href='https://zoom.us/download'>Zoom</a> vous sera envoyé par le professeur juste avant le cours.<br />Une fois sur Zoom, vous voilà connecté avec le professeur depuis l'Egypte!"
       icon = "icon-monitor"
 
   # About section
   [params.about]
     enable = false
     title = "Avis"
-    description = "Voici quelques avis nos anciens élèves."
+    description = "Voici quelques avis de nos anciens élèves."
 
     [[params.about.item]]
       name = "Salim"
@@ -404,7 +406,7 @@ languageName = "العربية"
     map = true
     form = true
     title = "Contact"
-    description = "Pour toutes questions, ou demande de devis, envoyez-nous un message."
+    description = "Pour toutes questions ou demande d'inscription envoyez-nous un message."
 
     # Available icons: http://simplelineicons.com/
     details = [
@@ -468,9 +470,8 @@ languageName = "العربية"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Institut alistiquamah. Tout droit reservés. <br>Crée par <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">Institut alistiquamah</a> '
     links = [
         ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
       ]
