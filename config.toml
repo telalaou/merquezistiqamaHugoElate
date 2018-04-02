@@ -206,6 +206,11 @@ languageName = "العربية"
       alt = "alajroumya"
       title = "Explication d'al Ajouroumiyah"
       subtitle = "Avec les explications de cheikh Otheymin, Moqbil,…"
+    [[params.work.row]]
+      img = "tabirHommes.png"
+      alt = "ta'bir a-chafawi"
+      title = "Expression orale"
+      subtitle = "Apprenez à communiquer en arabe dans n'importe quel pays arabophone."
 
     [[params.work.row]]
       img = "work_4.jpg"
@@ -219,11 +224,7 @@ languageName = "العربية"
       title = "Al Balagha al Wâdihah"
       subtitle = ""
 
-     [[params.work.row]]
-      img = "tabirHommes.png"
-      alt = "ta'bir a-chafawi"
-      title = "Expression orale"
-      subtitle = "Apprenez à communiquer en arabe dans n'importe quel pays arabophone."
+
 
 
   # Testimonials section
