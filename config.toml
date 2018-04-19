@@ -35,9 +35,9 @@ languageName = "العربية"
   [languages.en.navigation]
     brand = "<div class='logo'></div>"
     home = "Home"
-    work = "Work"
+    work = "programs"
     testimonials = "Testimonials"
-    services = "Services proposés"
+    services = "Services"
     about = "About"
     contact = "Contact"
   [languages.fr.navigation]
@@ -51,7 +51,7 @@ languageName = "العربية"
   [languages.ar.navigation]
       brand = "<div class='logo'></div>"
       home = "الرئيسية"
-      work = "أعمال"
+      work = "برامج"
       testimonials = "الشهادات"
       services = "الخدمات"
       about = "عنا"
@@ -80,7 +80,7 @@ languageName = "العربية"
     title = "Institut Al Istiqamah"
     subtitle = "Apprenez l’arabe depuis votre domicile en direct de l'Egypte avec des professeurs natifs ayant l’expérience de l’enseignement aux non-arabophones."
   [languages.ar.hero]
-    title = "مركزالاستيقما"
+    title = "مركز الإستقامة"
     subtitle = "تعلم اللغة العربية من منزلك مباشرة من مصر مع مدرسين أصليين ذوي خبرة تعليمية لغير الناطقين بها."
 
   # Intro section
@@ -157,7 +157,7 @@ languageName = "العربية"
 
   [[languages.ar.params.intro.item]]
     title = "في الغمر الكلي"
-    description = "هذه الطريقة المعروفة هي بلا شك الطريقة الأكثر فعالية للتقدم بسرعة."
+    description = "هذه الطريقة المعروفة هي بلا شك الطريقة الأكثر فعالية للتقدم بسرعة"
     url = "#"
     button = "للمزيد من المعلومات"
     icon = "icon-bubbles"
@@ -171,7 +171,7 @@ languageName = "العربية"
 
 
   # Work section
-  [params.work]
+  [languages.fr.params.work]
     enable = true
     title = "Programmes"
     description = " Ubaī ibn Ka’b (رضي الله عنه) dit : <br />« Apprend l’arabe comme tu apprends à mémoriser le Coran » <br />(Ibn Abī Šaībat, Al-Muṣannaf 7/150)"
@@ -224,7 +224,58 @@ languageName = "العربية"
       title = "Al Balagha al Wâdihah"
       subtitle = ""
 
+  [languages.ar.params.work]
+    enable = true
+    title = "برامج"
+    description = " رضي الله عنه قال أبى بن كعب : <br />« تعلموا العربية كما تعلمون حفظ القرآن » <br />(ذكره بن أبي شيبة في مصنفه 7/150)"
+    footertext = ''
 
+    [[languages.ar.params.work.row]]
+      img = "tome1femme_final.png"
+      alt = "كتاب مدينة الأول"
+      title = "كتاب مدينة الأول"
+      subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية."
+
+    [[languages.ar.params.work.row]]
+      img = "tome2MedineFemme.png"
+      alt = "كتاب مدينة الثاني"
+      title = "كتاب مدينة الثاني"
+      subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية."
+
+    [[languages.ar.params.work.row]]
+        img = "tome2MedineFemme.png"
+        alt = "كتاب مدينة التالث"
+        title = "كتاب مدينة التالث"
+        subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية."
+
+    [[languages.ar.params.work.row]]
+      img = "nouranyaFemmes.png"
+      alt = "القاعدة النورانية"
+      title = "القاعدة النورانية"
+      subtitle = "طريقة أصيلة تعلمك قراءة القرآن مع التجويد."
+
+    [[languages.ar.params.work.row]]
+      img = "alajroumya.png"
+      alt = "الشرح الاجرومية"
+      title = "الشرح الاجرومية"
+      subtitle = " مع الشرح الشيخ مقبل بن هادي والشيخ صالح بن العثيمين"
+    [[languages.ar.params.work.row]]
+      img = "tabirHommes.png"
+      alt = "التعبر الشفوي"
+      title = "التعبر الشفوي"
+      subtitle = "تعلم التواصل باللغة العربية في أي بلد العربية"
+
+    [[languages.ar.params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "نحو الواضح"
+      subtitle = ""
+
+    [[languages.ar.params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "البلاغة الواضحة"
+      subtitle = ""
 
 
   # Testimonials section
