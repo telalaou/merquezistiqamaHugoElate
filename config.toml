@@ -177,48 +177,102 @@ languageName = "العربية"
     description = " Ubaī ibn Ka’b (رضي الله عنه) dit : <br />« Apprend l’arabe comme tu apprends à mémoriser le Coran » <br />(Ibn Abī Šaībat, Al-Muṣannaf 7/150)"
     footertext = ''
 
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
       img = "tome1femme_final.png"
       alt = "Tome 1 de Médine"
       title = "Tome 1 de Medine"
       subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
       img = "tome2MedineFemme.png"
       alt = "Tome 2 de Médine"
       title = "Tome 2 de Medine"
       subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
         img = "tome2MedineFemme.png"
         alt = "Tome 3 de Médine"
         title = "Tome 3 de Medine"
         subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
       img = "nouranyaFemmes.png"
       alt = "Qua'ida an-nouraniyah"
       title = "An Nouraniyah"
       subtitle = "Une méthode authentique qui apprend à lire le Coran avec Tajwid."
 
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
       img = "alajroumya.png"
       alt = "alajroumya"
       title = "Explication d'al Ajouroumiyah"
       subtitle = "Avec les explications de cheikh Otheymin, Moqbil,…"
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
       img = "tabirHommes.png"
       alt = "ta'bir a-chafawi"
       title = "Expression orale"
       subtitle = "Apprenez à communiquer en arabe dans n'importe quel pays arabophone."
 
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
       title = "An Nahwou al-wâdih"
       subtitle = ""
 
-    [[params.work.row]]
+    [[languages.fr.params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Al Balagha al Wâdihah"
+      subtitle = ""
+
+[languages.en.params.work]
+    enable = true
+    title = "Programs"
+    description = " Ubaī ibn Ka’b (رضي الله عنه) said : <br />« Learn Arabic just as you learn to memorize the Qurân » <br />(Ibn Abī Šaībat, Al-Muṣannaf 7/150)"
+    footertext = ''
+
+    [[languages.en.params.work.row]]
+      img = "tome1femme_final.png"
+      alt = "Madina book level 1"
+      title = "Madina book level 1"
+      subtitle = "Madina books are a reference to learn the Arabic language."
+
+    [[languages.en.params.work.row]]
+      img = "tome2MedineFemme.png"
+      alt = "Madina book level 2"
+      title = "Madina book level 2"
+      subtitle = "Madina books are a reference to learn the Arabic language."
+
+    [[languages.en.params.work.row]]
+        img = "tome2MedineFemme.png"
+        alt = "Madina book level 3"
+        title = "Madina book level 3"
+        subtitle = "Madina books are a reference to learn the Arabic language."
+
+    [[languages.en.params.work.row]]
+      img = "nouranyaFemmes.png"
+      alt = "Qua'ida an-nouraniyah"
+      title = "Qua'ida an-nouraniyah"
+      subtitle = "An authentic method that teaches you to read the Qur'an with Tajwid."
+
+    [[languages.en.params.work.row]]
+      img = "alajroumya.png"
+      alt = "alajroumya"
+      title = "l Ajroumiyah"
+      subtitle = "With the explanations of cheikh Moqbil ibn Hadi, cheikh ibn al Outheymine,..."
+
+    [[languages.en.params.work.row]]
+      img = "tabirHommes.png"
+      alt = "Oral expression"
+      title = "Oral expression"
+      subtitle = "Learn to communicate in Arabic in any Arabic country."
+
+    [[languages.en.params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "An Nahwou al-wâdih"
+      subtitle = ""
+
+    [[languages.en.params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
       title = "Al Balagha al Wâdihah"
@@ -279,36 +333,36 @@ languageName = "العربية"
 
 
   # Testimonials section
-  [params.testimonials]
+  [languages.fr.params.testimonials]
     enable = true
     title = "Témoinages"
     description = "Voici quelques avis nos anciens élèves."
 
-    [[params.testimonials.item]]
+    [[languages.fr.params.testimonials.item]]
       quote = "&ldquo;Très bonne pédagogie de cours et très bénéfique. Par Allah si l'élève est impliqué et sérieux dans ses révisions il peut très vite progresser et avoir une conversation même basique en arabe.&rdquo;"
       person = 'Salim <a href="javascript: void(0)" target="_blank">Elève</a> <span class="subtext">Langue arabe</span>'
       img = "person1.jpg"
       alt = "Salim"
 
-    [[params.testimonials.item]]
+    [[languages.fr.params.testimonials.item]]
       quote = "&ldquo; MachaAllah c'est très enrichissant, précis et concis. Le professeur est très pédagogue le concept de cours en ligne avec Zoom est étonnemment instructive avec les notes du professeur.<br />Le professeur demande systématiquement si nous avons bien compris ce qui permet d'avancer sans mauvaise compréhension ou erreur de compréhension.&rdquo;"
       person = 'Yusuf Abu Qais <a href="javascript: void(0)" target="_blank">Elève</a> <span class="subtext">Langue arabe</span>'
       img = "person2.jpg"
       alt = "Yusuf Abu Qais"
 
-    [[params.testimonials.item]]
+    [[languages.fr.params.testimonials.item]]
         quote = "&ldquo;Assalam 'aleiykoum, les cours sont tops et le professeur est top Macha Allah.Je recommande très fortement le tome 1 de Médine à ceux qui savent lire l'arabe.<br />De plus, parfois le professeur demande aux élèves qui comprennent le mieux de traduire pour les les autres élèves. Le prix est plus qu'abordable je remercie l'institut car cela permet à beaucoup de frères et sœurs d'apprendre.&rdquo;"
         person = 'Un élève  <span class="subtext">Tome 1 de médine</span>'
         img = "person3.jpg"
         alt = "Person3"
 
-    [[params.testimonials.item]]
+    [[languages.fr.params.testimonials.item]]
       quote = "&ldquo;Je recommande mille fois.&rdquo;"
       person = 'Un élève  <span class="subtext">Langue arabe</span>'
       img = "person3.jpg"
       alt = "Person3"
 
-    [[params.testimonials.item]]
+    [[languages.fr.params.testimonials.item]]
       quote = "&ldquo;Quallah vous facilite et nous facilite l'apprentissage de la langue arabe.&rdquo;"
       person = 'Un élève  <span class="subtext">Langue arabe</span>'
       img = "person3.jpg"
