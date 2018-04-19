@@ -363,11 +363,46 @@ languageName = "العربية"
       alt = "Person3"
 
     [[languages.fr.params.testimonials.item]]
-      quote = "&ldquo;Quallah vous facilite et nous facilite l'apprentissage de la langue arabe.&rdquo;"
+      quote = "&ldquo;Qu'Allah vous facilite et nous facilite l'apprentissage de la langue arabe.&rdquo;"
       person = 'Un élève  <span class="subtext">Langue arabe</span>'
       img = "person3.jpg"
       alt = "Person3"
 
+
+[languages.en.params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "Here are some reviews of our old students."
+
+    [[languages.en.params.testimonials.item]]
+      quote = "&ldquo;Very good pedagogy and very beneficial. By Allah if the student is involved and serious in his revisions he can very quickly progress and have a conversation even basic in Arabic.&rdquo;"
+      person = 'Salim <a href="javascript: void(0)" target="_blank">Student</a> <span class="subtext">arabian language</span>'
+      img = "person1.jpg"
+      alt = "Salim"
+
+    [[languages.en.params.testimonials.item]]
+      quote = "&ldquo; MachaAllah it is very rewarding, precise and concise. The teacher is very pedagogic The concept of online courses with Zoom is amazingly instructive with the teacher's notes.<br />The teacher asks systematically if we have understood what makes it possible to advance without misunderstanding or misunderstanding.&rdquo;"
+      person = 'Yusuf Abu Qais <a href="javascript: void(0)" target="_blank">Student</a> <span class="subtext">Arabian language</span>'
+      img = "person2.jpg"
+      alt = "Yusuf Abu Qais"
+
+    [[languages.en.params.testimonials.item]]
+        quote = "&ldquo;Assalam 'aleiykoum, the courses are tops and the teacher is top Macha Allah. I highly recommend the volume 1 of Medina to those who can read Arabic.<br />Sometimes the teacher asks students who understand best to translate for other students. The price is more than affordable I thank the institute because it allows many brothers and sisters to learn.&rdquo;"
+        person = 'A student  <span class="subtext">Maddina book level 1</span>'
+        img = "person3.jpg"
+        alt = "Person3"
+
+    [[languages.en.params.testimonials.item]]
+      quote = "&ldquo;I recommend a thousand times.&rdquo;"
+      person = 'A student  <span class="subtext">Arabian language</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[languages.en.params.testimonials.item]]
+      quote = "&ldquo; May Allah facilitate and facilitate the learning of the Arabic language.&rdquo;"
+      person = 'A student  <span class="subtext">Arabian language</span>'
+      img = "person3.jpg"
+      alt = "Person3"
 
 
 
@@ -447,7 +482,7 @@ languageName = "العربية"
       [[params.about.item]]
       name = ""
       position = ""
-      description = "Quallah vous facilite et nous facilite l'apprentissage de la langue arabe."
+      description = "Qu'Allah vous facilite et nous facilite l'apprentissage de la langue arabe."
       img = "person3.jpg"
       alt = "Person3"
       social = [
