@@ -404,9 +404,40 @@ languageName = "العربية"
       img = "person3.jpg"
       alt = "Person3"
 
+[languages.ar.params.testimonials]
+    enable = true
+    title = "الشهادات"
+    description = "هذه بعض شهادات طلابنا القدامى"
 
+    [[languages.ar.params.testimonials.item]]
+      quote = "&ldquo;علم أصول التدريس جيد جدا ومفيد جدا. والله إذا كان الطالب متورطًا وجادًا في تنقيحاته ، فيمكنه أن يتقدم سريعاً ويتكلم حتى بلغة أساسية باللغة العربية&rdquo;"
+      person = 'سالم <a href="javascript: void(0)" target="_blank">طالب</a> <span class="subtext">الغة العربية</span>'
+      img = "person1.jpg"
+      alt = "سالم"
 
+    [[languages.ar.params.testimonials.item]]
+      quote = "&ldquo; ما شاء الله هو مجزي ودقيق وموجز. المعلم هو تربوي جدا مفهوم الدورات عبر الإنترنت مع زوم هو مفيد بشكل مدهش مع ملاحظات المعلم<br />يسأل المعلم بشكل منتظم إذا كنا قد فهمنا ما يجعل من الممكن التقدم دون سوء الفهم &rdquo;"
+      person = 'يوسف أبو قيس <a href="javascript: void(0)" target="_blank">طالب</a> <span class="subtext">الغة العربية</span>'
+      img = "person2.jpg"
+      alt = "يوسف أبو قيس"
 
+    [[languages.ar.params.testimonials.item]]
+        quote = "&ldquo; 'السلام عليكم الدروس جيد جدا. أنا أوصي كتاب المدينة الأول لمن ستطاع أن يقرأ<br />أحيانا يطلب الأستاذ لأفضل الفهم من الطلاب أن يشرح لطلاب الآخرين. الثمن رجيص أشكر المركز لأ كثير من الإخوة والأخوات يستفدون&rdquo;"
+        person = 'طالب  <span class="subtext">كتاب المدينة الأول</span>'
+        img = "person3.jpg"
+        alt = "Person3"
+
+    [[languages.ar.params.testimonials.item]]
+      quote = "&ldquo;أوصي ألف مرة.&rdquo;"
+      person = 'طالب  <span class="subtext">الغة العربية</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[languages.ar.params.testimonials.item]]
+      quote = "&ldquo;  ييسرالله ويسهل الله تعلم اللغة العربية &rdquo;"
+      person = 'طالب  <span class="subtext">الغة العربية</span>'
+      img = "person3.jpg"
+      alt = "Person3"
 
 
 
