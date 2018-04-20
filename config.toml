@@ -330,7 +330,7 @@ languageName = "Russe"
   [languages.ar.params.work]
     enable = true
     title = "برامج"
-    description = " رضي الله عنه قال أبى بن كعب : <br />« تعلموا العربية كما تعلمون حفظ القرآن » <br />(ذكره بن أبي شيبة في مصنفه 7/150)"
+    description = " : قال أبى بن كعب رضي الله عنه <br />« تعلموا العربية كما تعلمون حفظ القرآن » <br />(ذكره بن أبي شيبة في مصنفه 7/150)"
     footertext = ''
 
     [[languages.ar.params.work.row]]
