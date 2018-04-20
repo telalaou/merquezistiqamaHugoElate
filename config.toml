@@ -79,9 +79,21 @@ languageName = "Russe"
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
+    [[languages.fr.menu.postpend]]
       url = "faq"
       name = "FAQ"
+      identifier = "faq"
+    [[languages.en.menu.postpend]]
+      url = "faq"
+      name = "FAQ"
+      identifier = "faq"
+     [[languages.ar.menu.postpend]]
+       url = "faq"
+       name = "أسئلة وأجوبة"
+       identifier = "faq"
+    [[languages.ru.menu.postpend]]
+      url = "faq"
+      name = "часто задаваемые вопросы"
       identifier = "faq"
 
   # Hero section
