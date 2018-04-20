@@ -12,18 +12,18 @@ draft: true
     </li>
     <li>
         <h2>Sur quel support travaillez-vous ?</h2>
-        <p>Nous travaillons sur une plateforme interactive : l'application "ZOOM MEETINGS" téléchargeable sur tout support (Mac, Tablette, Ordinateur, téléphone..) cette plateforme permet un échange entre le professeur et l'élève et sert également de tableau pendant le cours.</p>
+        <p>Nous travaillons sur une plateforme interactive : l'application "<a href='https://zoom.us/download'>ZOOM MEETINGS</a> et <a href='https://www.skype.com/fr/get-skype/'>SKYPE</a>" téléchargeables sur tout support (Mac, Tablette, Ordinateur, téléphone..) ces plateformes permettent un échange entre le professeur et l'élève et servent également de tableau pendant le cours.</p>
     </li>
     <li>
         <h2>J'ai déjà étudié auparavant mais je ne connais pas mon niveau. Y a t'il un test pour déterminer le niveau ?</h2>
         <p>C'est lors de votre premier cours avec le professeur que celui-ci pourra déterminer votre niveau, il verra alors ainsi vos lacunes, vos acquis, vos difficultés et pourra déterminer le niveau qui vous convient.</p>
     </li>
     <li>
-        <h2>Comment dois-je faire pour envoyer mes devoirs au professeur ?</h2>
-        <p>Pour envoyer vos devoirs au professeur il vous suffira de les prendre en photo (lisible) ou de les scanner et de les envoyer à votre professeur sur l'application Zoom meetings. Veillez à les envoyer AVANT le cours afin de ne pas perdre de temps en début de cours.</p>
+        <h2>Quels sont les moyens de paiement ?</h2>
+        <p>Nous acceptons les paiements par PayPal.</p>
     </li>
     <li>
-        <h2>Quels sont les moyens de paiement ?</h2>
-        <p>Nous acceptons les paiements par Virement bancaire ou PayPal.</p>
+        <h2>Quels sont les tarifs pour coran & aabe?</h2>
+        <p><ul><li>Cours individuel : 4 € / heure.</li><li>Cours à deux : 2,5 € / heure.</li><li>Cours collectif (de 3 à 5 élèves maximum) : 2 € / heure</li></ul>.</p>
     </li>
 </ul>

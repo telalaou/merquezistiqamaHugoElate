@@ -20,6 +20,11 @@ title = "مركزالاستيقما"
 languageCode = "ar"
 languageName = "العربية"
 
+[languages.ru]
+title = "Институт Аль-Истикама"
+languageCode = "ru"
+languageName = "Russe"
+
 [languages.ar.params]
   custom_css = ["css/custom1.css", "css/rtl.css"]
 
@@ -56,7 +61,14 @@ languageName = "العربية"
       services = "الخدمات"
       about = "عنا"
       contact = "اتصال"
-
+  [languages.ru.navigation]
+    brand = "<div class='logo'></div>"
+    home = "Главная"
+    work = "программы"
+    testimonials = "отзывы"
+    services = "услуги"
+    about = "Около"
+    contact = "контакт"
     # You can add custom links before or after the default links
     # Assign a weight to define the order
 
@@ -82,6 +94,9 @@ languageName = "العربية"
   [languages.ar.hero]
     title = "مركز الإستقامة"
     subtitle = "تعلم اللغة العربية من منزلك مباشرة من مصر مع مدرسين أصليين ذوي خبرة تعليمية لغير الناطقين بها."
+  [languages.ru.hero]
+    title = "Институт Аль-Истикама"
+    subtitle = "Изучите арабский язык из своего дома, проживающего в Египте, с родными преподавателями с опытом преподавания для неарабских ораторов."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -96,6 +111,20 @@ languageName = "العربية"
     icon = "icon-home"
     img = "img_7.jpg"
     weight = 0
+  [[languages.en.params.intro.item]]
+    title = "Study at your own pace"
+    description = "Choose the formula that suits you best by combining work, training and family."
+    url = "#"
+    button = "Learn more"
+    icon = "icon-clock"
+    img = "img_8.jpg"
+  [[languages.en.params.intro.item]]
+    title = "In total immersion"
+    description = "This known method is undoubtedly the most effective way to progress quickly."
+    url = "#"
+    button = "Learn more"
+    icon = "icon-bubbles"
+    img = "img_10.jpg"
 
   [[languages.fr.params.intro.item]]
     title = "Cours en ligne"
@@ -106,23 +135,6 @@ languageName = "العربية"
     img = "img_7.jpg"
     weight = 0
 
-  [[languages.ar.params.intro.item]]
-    title = "دورة على الانترنت"
-    description = "في بضع نقرات ، تنضم إلى معلمك للحصول على درس مباشر من مصر."
-    url = "#"
-    button = "للمزيد من المعلومات"
-    icon = "icon-home"
-    img = "img_7.jpg"
-    weight = 0
-
-  [[languages.en.params.intro.item]]
-    title = "Study at your own pace"
-    description = "Choose the formula that suits you best by combining work, training and family."
-    url = "#"
-    button = "Learn more"
-    icon = "icon-clock"
-    img = "img_8.jpg"
-
   [[languages.fr.params.intro.item]]
     title = "Etudiez à votre rythme"
     description = "Choisissez la formule qui vous convient le mieux en conciliant travail, formation et famille."
@@ -131,35 +143,60 @@ languageName = "العربية"
     icon = "icon-clock"
     img = "img_8.jpg"
 
-  [[languages.ar.params.intro.item]]
-    title = "دراسة على وتيرتك الخاصة"
-    description = "اختر الصيغة التي تناسبك من خلال الجمع بين العمل والتدريب والعائلة."
-    url = "#"
-    button = "للمزيد من المعلومات"
-    icon = "icon-clock"
-    img = "img_8.jpg"
-
-  [[languages.en.params.intro.item]]
-    title = "In total immersion"
-    description = "This known method is undoubtedly the most effective way to progress quickly."
-    url = "#"
-    button = "Learn more"
-    icon = "icon-bubbles"
-    img = "img_10.jpg"
-
   [[languages.fr.params.intro.item]]
-    title = "En immersion totale"
-    description = "Cette méthode connue est sans aucun doute la plus efficace pour progresser rapidement."
-    url = "#"
-    button = "En savoir+"
-    icon = "icon-bubbles"
-    img = "img_10.jpg"
+      title = "En immersion totale"
+      description = "Cette méthode connue est sans aucun doute la plus efficace pour progresser rapidement."
+      url = "#"
+      button = "En savoir+"
+      icon = "icon-bubbles"
+      img = "img_10.jpg"
 
   [[languages.ar.params.intro.item]]
-    title = "في الغمر الكلي"
-    description = "هذه الطريقة المعروفة هي بلا شك الطريقة الأكثر فعالية للتقدم بسرعة"
+    title = "دورة على الانترنت"
+    description = "في بضع نقرات ، تنضم إلى معلمك للحصول على درس مباشر من مصر."
     url = "#"
     button = "للمزيد من المعلومات"
+    icon = "icon-home"
+    img = "img_7.jpg"
+    weight = 0
+  [[languages.ar.params.intro.item]]
+      title = "دراسة على وتيرتك الخاصة"
+      description = "اختر الصيغة التي تناسبك من خلال الجمع بين العمل والتدريب والعائلة."
+      url = "#"
+      button = "للمزيد من المعلومات"
+      icon = "icon-clock"
+      img = "img_8.jpg"
+
+  [[languages.ar.params.intro.item]]
+      title = "في الغمر الكلي"
+      description = "هذه الطريقة المعروفة هي بلا شك الطريقة الأكثر فعالية للتقدم بسرعة"
+      url = "#"
+      button = "للمزيد من المعلومات"
+      icon = "icon-bubbles"
+      img = "img_10.jpg"
+
+  [[languages.ru.params.intro.item]]
+    title = "Онлайн-курс"
+    description = "Через несколько кликов из дома вы присоединитесь к своему учителю для живого урока из Египта."
+    url = "#"
+    button = "Выучить больше"
+    icon = "icon-home"
+    img = "img_7.jpg"
+    weight = 0
+
+  [[languages.ru.params.intro.item]]
+      title = "Учитесь в своем собственном темпе"
+      description = "Выберите формулу, которая вам подходит лучше всего, объединив работу, обучение и семью."
+      url = "#"
+      button = "Выучить больше"
+      icon = "icon-clock"
+      img = "img_8.jpg"
+
+  [[languages.ru.params.intro.item]]
+    title = "В полном погружении"
+    description = "Этот известный метод, несомненно, является наиболее эффективным способом быстрого развития."
+    url = "#"
+    button = "Выучить больше"
     icon = "icon-bubbles"
     img = "img_10.jpg"
 
@@ -331,6 +368,59 @@ languageName = "العربية"
       title = "البلاغة الواضحة"
       subtitle = ""
 
+[languages.ru.params.work]
+    enable = true
+    title = "программы"
+    description = " Убайибн Ка'б (رضي الله عنه) сказал : <br />« Изучите арабский язык так же, как вы научитесь запоминать Коран» <br />(Ибн Аби Шайбат, Аль-Мураннаф 7/150)"
+    footertext = ''
+
+    [[languages.ru.params.work.row]]
+      img = "tome1femme_final.png"
+      alt = "Книжка Мадина 1 уровень"
+      title = "Книжка Мадина 1 уровень"
+      subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
+
+    [[languages.ru.params.work.row]]
+      img = "tome2MedineFemme.png"
+      alt = "Книжка Мадина 2 уровень"
+      title = "Книжка Мадина 2 уровень"
+      subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
+
+    [[languages.ru.params.work.row]]
+        img = "tome2MedineFemme.png"
+        alt = "Книжка Мадина 3 уровень"
+        title = "Книжка Мадина 3 уровень"
+        subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
+
+    [[languages.ru.params.work.row]]
+      img = "nouranyaFemmes.png"
+      alt = "Правило света"
+      title = "Правило света"
+      subtitle = "Подлинный метод, который учит вас читать Коран с Тайвидом."
+
+    [[languages.ru.params.work.row]]
+      img = "alajroumya.png"
+      alt = "Объяснение ajārūmīya"
+      title = "Объяснение ajārūmīya"
+      subtitle = "С объяснениями шехиха Мокбила ибн Хади, шейха ибн аль аутеимина, ..."
+
+    [[languages.ru.params.work.row]]
+      img = "tabirHommes.png"
+      alt = "Устное выражение"
+      title = "Устное выражение"
+      subtitle = "Научитесь общаться на арабском языке в любой арабской стране."
+
+    [[languages.ru.params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Очевидно, о"
+      subtitle = ""
+
+    [[languages.ru.params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Четкая риторика"
+      subtitle = ""
 
   # Testimonials section
   [languages.fr.params.testimonials]
@@ -439,34 +529,94 @@ languageName = "العربية"
       img = "person3.jpg"
       alt = "Person3"
 
+[languages.ru.params.testimonials]
+    enable = true
+    title = "Отзывы"
+    description = "Вот несколько обзоров наших старых учеников."
+
+    [[languages.ru.params.testimonials.item]]
+      quote = "&ldquo;Очень хорошая педагогика и очень полезная. Клянусь Аллахом, если учащийся вовлечен и серьезен в своих пересмотрах, он может очень быстро развиваться и разговаривать даже на арабском языке.&rdquo;"
+      person = 'Салим <a href="javascript: void(0)" target="_blank">Студент</a> <span class="subtext">арабский язык</span>'
+      img = "person1.jpg"
+      alt = "Салим"
+
+    [[languages.ru.params.testimonials.item]]
+      quote = "&ldquo; Маха Аллах очень полезен, точен и краток. Учитель очень педагогический. Концепция онлайн-курсов с Zoom - удивительно поучительная с примечаниями учителя.<br />Учитель систематически спрашивает, понимаем ли мы, что позволяет продвигаться без недопонимания или непонимания.&rdquo;"
+      person = 'Юсуф Абу Каис <a href="javascript: void(0)" target="_blank">Студент</a> <span class="subtext">арабский язык</span>'
+      img = "person2.jpg"
+      alt = "Юсуф Абу Каис"
+
+    [[languages.ru.params.testimonials.item]]
+        quote = "&ldquo;Мир вам очень хорошие уроки. Я рекомендую первую городскую книгу для тех, кто сможет читать. Я очень рекомендую тома 1 Медины тем, кто может читать арабский.<br />Иногда учитель спрашивает студентов, которые лучше всего переводили для других учеников. Цена более чем доступная. Я благодарю институт, потому что он позволяет многим братьям и сестрам учиться.&rdquo;"
+        person = 'Студент  <span class="subtext">Книжка Мадина 1 уровень</span>'
+        img = "person3.jpg"
+        alt = "Person3"
+
+    [[languages.ru.params.testimonials.item]]
+      quote = "&ldquo;Я рекомендую тысячу раз.&rdquo;"
+      person = 'Студент  <span class="subtext">Арабский язык</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[languages.ru.params.testimonials.item]]
+      quote = "&ldquo; Пусть Аллах облегчит и облегчит изучение арабского языка.&rdquo;"
+      person = 'Студент  <span class="subtext">Арабский язык</span>'
+      img = "person3.jpg"
+      alt = "Person3"
 
 
   # Services section
-  [params.services]
-    enable = true
+  [languages.fr.params.services]
+    enable = false
     title = "Services proposés"
     description = "Les cours sont destinés aux hommes, femmes et enfants et sont non mixtes."
 
-    [[params.services.item]]
+    [[languages.fr.params.services.item]]
       title = "Qualité d'enseignement."
       description = "Vous avez la possibilité prendre des cours individuels, en binôme ou en groupe. Dans un souci d'optimisation chaque classe est limitée à 5 élèves maximum."
       icon = "icon-anchor"
 
-    [[params.services.item]]
+    [[languages.fr.params.services.item]]
       title = "Tarifs arabe & coran"
       description = "<ul><li>Cours individuel : 4 € / heure.</li><li>Cours à deux : 2,5 € / heure.</li><li>Cours collectif (de 3 à 5 élèves maximum) : 2 € / heure</li></ul>"
       icon = "icon-layers2"
 
-    [[params.services.item]]
+    [[languages.fr.params.services.item]]
         title = "Examens."
         description = "Les élèves devront passer un examen finale orale et ou écrit. Vous devrez passer également un examen d'entrée selon la classe choisie."
         icon = "icon-anchor"
 
 
-    [[params.services.item]]
+    [[languages.fr.params.services.item]]
       title = "Plateforme utilisées"
       description = "Les cours se déroulent sur les plateformes <a style='color: #fff;' href='https://zoom.us/download'>Zoom</a> et <a style='color:#fff' href='https://www.skype.com/fr/get-skype/'>Skype</a>.<br />Un lien de session de la plateforme de meeting <a style='color: #fff;' href='https://zoom.us/download'>Zoom</a> vous sera envoyé par le professeur juste avant le cours.<br />Une fois sur Zoom, vous voilà connecté avec le professeur depuis l'Egypte!"
       icon = "icon-monitor"
+
+  [languages.en.params.services]
+      enable = false
+      title = "Services"
+      description = "Courses are for men, women and children and are single sex."
+
+      [[languages.en.params.services.item]]
+        title = "Teaching quality."
+        description = "You have the possibility to take individual lessons, in pairs or in groups. For optimization each class is limited to 5 students maximum."
+        icon = "icon-anchor"
+
+      [[languages.en.params.services.item]]
+        title = "Arabic & Quran Rates"
+        description = "<ul><li>Individual course : 4 € / hour.</li><li>Paired classes : 2,5 € / hour.</li><li>group courses (from 3 to 5 students maximum) : 2 € / hour</li></ul>"
+        icon = "icon-layers2"
+
+      [[languages.en.params.services.item]]
+          title = "exams."
+          description = "Students will have to pass an oral and or write final exam. You will also have to pass an entrance examination according to the chosen class."
+          icon = "icon-anchor"
+
+
+      [[languages.en.params.services.item]]
+        title = "Platform used"
+        description = "Classes take place on the platforms <a style='color: #fff;' href='https://zoom.us/download'>Zoom</a> and <a style='color:#fff' href='https://www.skype.com/fr/get-skype/'>Skype</a>.<br />A session link of the meeting platform <a style='color: #fff;' href='https://zoom.us/download'>Zoom</a> will be sent by the teacher just before course.<br />Once on Zoom, you are connected with the teacher from Egypt!"
+        icon = "icon-monitor"
 
   # About section
   [params.about]
@@ -638,6 +788,30 @@ languageName = "العربية"
     phone = "هاتف"
     message = "رسالة"
     button = "إبعث"
+
+
+[languages.ru.contact]
+    enable = true
+    map = true
+    form = true
+    title = "контакт"
+    description = "По любым вопросам или запросите цитату, пришлите нам сообщение."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Каир, Египет"],
+        ["icon-phone", "+201007676132"],
+        ["icon-envelope", "markezalistiqama@gmail.com"],
+        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
+      ]
+
+    # Available icons: http://simplelineicons.com/
+    name = "имя"
+    email = "Электронная почта"
+    phone = "телефон"
+    message = "сообщение"
+    button = "испускать"
+
 
   # Footer section
   [params.footer]

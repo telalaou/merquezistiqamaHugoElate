@@ -7,23 +7,23 @@ draft: true
 
 <ul>
     <li>
-        <h2>Les professeurs sont-ils seulement arabophones ou parlent-ils le français aussi ?</h2>
-        <p>Nous avons des professeurs franco-arabophones hommes et femmes afin de faciliter l'abord avec la langue arabe aux plus débutants. Le professeur pourra ainsi revenir au français en cas de réelle nécessité. Nous avons également des enseignant(e)s arabophones ayant une expérience auprès des non-arabophones pour une immersion totale dans la langue arabe.</p>
+        <h2>هل المدرسون هم متكلمون باللغة العربية فقط أم هم متكلمون الفرنسية أيضًا؟</h2>
+        <p>لدينا معلمين فرنسيين-عربيين ، رجال ونساء حسب الدروس ، من أجل تسهيل بداية اللغة العربية إلى أكثر المبتدئين. سيتمكن المعلم من العودة إلى اللغة الفرنسية في حالة الحاجة الفعلية. لدينا أيضًا معلمين يتحدثون اللغة العربية ولديهم خبرة مع غير الناطقين باللغة العربية للانغماس التام في اللغة العربية.</p>
     </li>
     <li>
-        <h2>Sur quel support travaillez-vous ?</h2>
-        <p>Nous travaillons sur une plateforme interactive : l'application "ZOOM MEETINGS" téléchargeable sur tout support (Mac, Tablette, Ordinateur, téléphone..) cette plateforme permet un échange entre le professeur et l'élève et sert également de tableau pendant le cours.</p>
+        <h2>ما هي الوسائط التي تعمل عليها؟ ?</h2>
+    </li>
+        <p>نحن نعمل على منصة تفاعلية: التطبيق "<a href='https://zoom.us/download'>ZOOM MEETINGS</a> و <a href='https://www.skype.com/fr/get-skype/'>SKYPE</a>" قابل للتنزيل على أي وسيط (ماك ، تابلت ، كمبيوتر ، هاتف ..) تسمح هذه المنصات بتبادل بين المعلم والطالب ، كما تعمل كطاولة خلال الدورة.</p>
+    <li>
+        <h2>لقد درست من قبل لكني لا أعرف مستواي. هل هناك اختبار لتحديد المستوى؟</h2>
+        <p>خلال درسك الأول مع المعلم ، الذي سيكون قادرًا على تحديد مستواك ، سيشاهد قصورك ، إنجازاتك ، صعوباتك ويمكنه تحديد المستوى الذي يناسبك.</p>
     </li>
     <li>
-        <h2>J'ai déjà étudié auparavant mais je ne connais pas mon niveau. Y a t'il un test pour déterminer le niveau ?</h2>
-        <p>C'est lors de votre premier cours avec le professeur que celui-ci pourra déterminer votre niveau, il verra alors ainsi vos lacunes, vos acquis, vos difficultés et pourra déterminer le niveau qui vous convient.</p>
+        <h2>ما هي وسائل الدفع؟</h2>
+        <p>نحن نقبل المدفوعات باي بال</p>
     </li>
     <li>
-        <h2>Comment dois-je faire pour envoyer mes devoirs au professeur ?</h2>
-        <p>Pour envoyer vos devoirs au professeur il vous suffira de les prendre en photo (lisible) ou de les scanner et de les envoyer à votre professeur sur l'application Zoom meetings. Veillez à les envoyer AVANT le cours afin de ne pas perdre de temps en début de cours.</p>
-    </li>
-    <li>
-        <h2>Quels sont les moyens de paiement ?</h2>
-        <p>Nous acceptons les paiements par Virement bancaire ou PayPal.</p>
+        <h2>ما هي أسعار القرآن الكريم والعربية?</h2>
+        <p><ul><li>دورة فردية : 4 € / في ساعة.</li><li>بالطبع في اثنين : 2,5 € /  في ساعة.</li><li>فصول المجموعة (من 3 إلى 5 طلاب كحد أقصى) : 2 € /  في ساعة</li></ul>.</p>
     </li>
 </ul>
