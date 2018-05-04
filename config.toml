@@ -643,7 +643,7 @@ languageName = "Russe"
       img = "person1.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
+        ["icon-twitter", ""],
         ["icon-facebook", "#"],
         ["icon-linkedin", "#"]
       ]
@@ -830,27 +830,27 @@ languageName = "Russe"
     enable = true
     copyright = '&copy; Institut alistiquamah. Tout droit reservés. <br>Crée par <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">Institut alistiquamah</a> '
     links = [
-        ["icon-twitter", "#twitter"],
+        ["icon-twitter", "https://twitter.com/malistiqamah"],
         ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
       ]
   [languages.ar.params.footer]
       enable = true
       copyright = '&copy; المركز الإستقامة. كل الحقوق محفوظة. <br>صنع من قبل <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">المركز الإستقامة</a> '
       links = [
-          ["icon-twitter", "#twitter"],
+          ["icon-twitter", "https://twitter.com/malistiqamah"],
           ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
         ]
   [languages.en.params.footer]
       enable = true
       copyright = '&copy; Alistiquamah Institute. all rights reserved. <br>Created by <a href="https://www.facebook.com/markez.alistiqamah" target="_blank"> Alistiquamah Institute</a> '
       links = [
-          ["icon-twitter", "#twitter"],
+          ["icon-twitter", "https://twitter.com/malistiqamah"],
           ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
         ]
   [languages.ru.params.footer]
       enable = true
       copyright = '&copy; Центр честности. все права защищены. <br>Создано <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">Центр честности</a> '
       links = [
-          ["icon-twitter", "#twitter"],
+          ["icon-twitter", "https://twitter.com/malistiqamah"],
           ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
         ]
