@@ -26,4 +26,50 @@ draft: true
         <h2>Quels sont les tarifs pour coran & aabe?</h2>
         <p><ul><li>Cours individuel : 4 € / heure.</li><li>Cours à deux : 2,5 € / heure.</li><li>Cours collectif (de 3 à 5 élèves maximum) : 2 € / heure</li></ul>.</p>
     </li>
+    <li>
+                <h2> Qui sommes nous?</h2>
+                <p> Nom du directeur: Abu Obeid Allah Hossam Al-Din Bin Mohammed Al-Nahhal.
+                        <br /> Résidence: Qalyubiya - Egypt.
+                        <br />
+                         <ol class="e indent"> Formation:
+                            <li>Bachelier en littérature, en langue arabe et en sciences islamiques.
+                                <br /> Lieu: Lycée Dar Al Uloom.
+                                <br />Université: Le Caire.
+                            </li>
+                            <li>Obtention d'un master 1 en croyance islamique.
+                                <br /> Lieu : Lycée Dar Al Uloom.
+                                Université: Le Caire.
+                            </li>
+                            <li>Inscrit au matser de croyance islamique de la faculté de Dar Al Uloom de l'université du Caire </li>
+                            <li>Obtention du diplôme d'enseignant génrale spécialité langue arabe
+                                <br /> Lieu: College of Education.
+                                <br /> Université: Menoufia.
+                            </li>
+                         </ol>
+                        <ol class="e indent"> Cours obtenus:
+                            <li> Il a réussi le cours intensif d'expression et de dictée,qui a été tenue par la Faculté de Dar Al Uloom - Université du Caire du 26/7 au 15/8/2010.</li>
+                        </ol>
+                        <ol class="e indent"> Expériences précedentes:
+                            <li> A travaillé comme libraire linguistique au bureau de Hadi Mohammedi au Caire </li>
+                            <li> Il est maintenant professeur de langue arabe et d'éducation islamique à l'école secondaire privée Fathi Al-Jamal, qui a été en commun depuis 2011.</li>
+                        </ol>
+                        <ol class=" indent">
+                           Les savants et les chouyoukhs qui l'ont influencé et auprès de qui il a pris la science:
+                            <li>Imam Muqbil bin Hadi al-Wada'i</li>
+                            <li>Imam Rabih bin Hadi al-Madkhali</li>
+                            <li>son frère Shaykh Muhammad ibn Hadi al-Madkhali</li>
+                            <li>cheikh al-Fawzan. </li>
+                        </ol>
+                    </p>
+        </li>
 </ul>
+<style>
+#faq-questions ul{
+}
+.indent li{
+    margin-left : 40px;
+}
+#faq-questions ol{
+    padding-left:0;
+}
+</style>
