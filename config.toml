@@ -35,7 +35,7 @@ languageName = "Russe"
   # Meta
   author = ""
   description = ""
-  email = "test000.istiqama@gmail.com"
+  email = "markezalistiqamah@gmail.com"
   # Navigation
   [languages.en.navigation]
     brand = "<div class='logo'></div>"
@@ -632,7 +632,7 @@ languageName = "Russe"
 
   # About section
   [params.about]
-    enable = false
+    enable = true
     title = "Avis"
     description = "Voici quelques avis de nos anciens élèves."
 
@@ -698,7 +698,7 @@ languageName = "Russe"
 
   # Counters section
   [params.counters]
-    enable = false
+    enable = true
     title = "Stats"
     background = "full_image_1.jpg"
 

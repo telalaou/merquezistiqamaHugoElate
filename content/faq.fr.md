@@ -55,10 +55,15 @@ draft: true
                         </ol>
                         <ol class=" indent">
                            Les savants et les chouyoukhs qui l'ont influencé et auprès de qui il a pris la science:
+                            <li>Cheikh ibn 'otheymine</li>
+                            <li>Cheikh ibn Bâz</li>
+                            <li>Cheikh al Albani</li>
                             <li>Imam Muqbil bin Hadi al-Wada'i</li>
                             <li>Imam Rabih bin Hadi al-Madkhali</li>
                             <li>son frère Shaykh Muhammad ibn Hadi al-Madkhali</li>
                             <li>cheikh al-Fawzan. </li>
+                            <li>Il a assisté aux cours de : Hassan ibn abd alwahab albanna, cheikh khlaid ibn abd arahman al-misry, cheikh Raslan, cheikh khalid ibn abd al-'ala qu'Allah les preserve tous.</li>
+                            <li>Он учитель в Университете Ахмеда ибн Умара ибн Базмола и в Университете шейха Раслана, которого Аллах сохраняет.</li>
                         </ol>
                     </p>
         </li>
