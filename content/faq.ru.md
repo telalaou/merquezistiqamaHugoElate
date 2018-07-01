@@ -64,6 +64,19 @@ draft: true
                             </ol>
                         </p>
             </li>
+            <li>
+                    <h2>Рекомендация шейха Хасана бин Абдула Вахаба Аль-Банны</h2>
+                    <p>
+                        <a href="/images/tazkya.pdf" target="_blank"><img src="/images/pdfIcon.png"/></a>
+                    </p>
+                    <p>
+                        <audio controls>
+                          <source src="/audio/tazkya.ogg" type="audio/ogg">
+                          <source src="/audio/tazkya.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                        </audio>
+                    </p>
+                </li>
 </ul>
 
 <style>
