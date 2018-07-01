@@ -63,7 +63,7 @@ draft: true
                             <li>son frère Shaykh Muhammad ibn Hadi al-Madkhali</li>
                             <li>cheikh al-Fawzan. </li>
                             <li>Il a assisté aux cours de : Hassan ibn abd alwahab albanna, cheikh khlaid ibn abd arahman al-misry, cheikh Raslan, cheikh khalid ibn abd al-'ala qu'Allah les preserve tous.</li>
-                            <li>Он учитель в Университете Ахмеда ибн Умара ибн Базмола и в Университете шейха Раслана, которого Аллах сохраняет.</li>
+                            <li>Il est enseignant dans l'université Ahmed ibn Omar ibn Bâzmol et dans l'université de cheikh Raslan qu'Allah le preserve.</li>
                         </ol>
                     </p>
         </li>

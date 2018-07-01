@@ -61,6 +61,20 @@ draft: true
                العلماء والمشايخ الذين تأثر بهم وتتلمذ على يديهم: 
             <li> تأثر بالعلامة العثيمين، والإمام ابن باز، والإمام الألباني، والإمام مقبل بن هادي الوادعي، والإمام ربيع بن هادي المدخلي وأخيه الشيخ محمد بن هادي المدخلي، والإمام الفوزان.</li>
             <li> حضر دروس الشيخ حسن بن عبد الوهاب البنا، والشيخ خالد بن عبد الرحمن المصري، والشيخ رسلان، والشيخ خالد أبو عبد الأعلى حفظهم الله جميعا، ويدرس في معهد الشيخ أحمد بن عمر بازمول، وجامعة الشيخ رسلان حفظهما الله تعالى.</li>
+            </ol>
+        </p>
+    </li>
+    <li>
+        <h2>تزكية من شيخ حَسْنُ بْنُ عَبْدِ الْوَهَّابِ الْبَنَّا</h2>
+        <p>
+            <a href="/images/tazkya.pdf" target="_blank"><img src="/images/pdfIcon.png"/></a>
+        </p>
+        <p>
+            <audio controls>
+              <source src="/audio/tazkya.ogg" type="audio/ogg">
+              <source src="/audio/tazkya.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
         </p>
     </li>
 </ul>
@@ -74,5 +88,8 @@ draft: true
 }
 #faq-questions ol{
     padding-left:0;
+}
+#fh5co-content {
+    direction: rtl;
 }
 </style>
