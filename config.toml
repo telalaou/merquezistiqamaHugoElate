@@ -227,9 +227,27 @@ languageName = "Russe"
     footertext = ''
 
     [[languages.fr.params.work.row]]
+      img = "merkez.png"
+      alt = "Merkez alistiquamah"
+      title = "Merkez alistiquamah"
+      subtitle = "Présentation et tarifs du merkez alistiquamah."
+
+    [[languages.fr.params.work.row]]
+      img = "tome1medine_homme.png"
+      alt = "Tome 1 de Médine hommes"
+      title = "Tome 1 de Medine hommes"
+      subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
+
+    [[languages.fr.params.work.row]]
+      img = "tome2medine_homme.png"
+      alt = "Tome 2 de Médine hommes"
+      title = "Tome 2 de Medine hommes"
+      subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
+
+    [[languages.fr.params.work.row]]
       img = "tome1femme_final.png"
-      alt = "Tome 1 de Médine"
-      title = "Tome 1 de Medine"
+      alt = "Tome 1 de Médine femmes"
+      title = "Tome 1 de Medine femmes"
       subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
     [[languages.fr.params.work.row]]
@@ -237,12 +255,6 @@ languageName = "Russe"
       alt = "Tome 2 de Médine"
       title = "Tome 2 de Medine"
       subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
-
-    [[languages.fr.params.work.row]]
-        img = "tome2MedineFemme.png"
-        alt = "Tome 3 de Médine"
-        title = "Tome 3 de Medine"
-        subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
     [[languages.fr.params.work.row]]
       img = "nouranyaFemmes.png"
@@ -747,6 +759,7 @@ languageName = "Russe"
         ["icon-home", "Le Caire, Egypte"],
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
+        ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
         ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
@@ -769,6 +782,7 @@ languageName = "Russe"
         ["icon-home", "Le Caire, Egypte"],
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
+        ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
         ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
@@ -791,6 +805,7 @@ languageName = "Russe"
         ["icon-home", "القاهرة ، مصر"],
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
+        ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
         ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
@@ -814,6 +829,7 @@ languageName = "Russe"
         ["icon-home", "Каир, Египет"],
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
+        ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
         ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
