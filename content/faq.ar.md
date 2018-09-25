@@ -65,7 +65,7 @@ draft: true
         </p>
     </li>
     <li>
-        <h2>تزكية من شيخ حَسْنُ بْنُ عَبْدِ الْوَهَّابِ الْبَنَّا</h2>
+        <h2>نصائح وتوصية من الشيخ حسن بن عبد الوهاب البنا حفظه الله تعالى</h2>
         <p>
             <a href="/images/tazkya.pdf" target="_blank"><img src="/images/pdfIcon.png"/></a>
         </p>

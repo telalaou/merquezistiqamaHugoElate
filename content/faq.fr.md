@@ -63,12 +63,12 @@ draft: true
                             <li>Shaykh Muhammad ibn Hadi al-Madkhali</li>
                             <li>cheikh al-Fawzan. </li>
                             <li>Il a assisté aux cours de : Hassan ibn abd alwahab albanna, cheikh khlaid ibn abd arahman al-misry, cheikh Raslan, cheikh khalid ibn abd al-'ala qu'Allah les preserve tous.</li>
-                            <li>Il est enseignant dans l'université Ahmed ibn Omar ibn Bâzmol et dans l'université de cheikh Raslan qu'Allah le preserve.</li>
+                            <li>Il est étudiant dans l'université Ahmed ibn Omar ibn Bâzmol et dans l'université de cheikh Raslan qu'Allah le preserve.</li>
                         </ol>
                     </p>
         </li>
         <li>
-                <h2>Recommandation de cheikh Hassan ibn Abd alwahab albanâ:</h2>
+                <h2>Conseils et recommandation de cheikh Hassan ibn Abd alwahab albanâ:</h2>
                 <p>
                     <a href="/images/tazkya.pdf" target="_blank"><img src="/images/pdfIcon.png"/></a>
                 </p>

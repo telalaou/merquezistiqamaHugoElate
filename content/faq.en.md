@@ -63,12 +63,12 @@ draft: true
                         <li>the Imam Rabih bin Hadi al-Madkhali,     Shaykh Muhammad ibn Hadi al-Madkhali</li>
                         <li>Imam al-Fawzan. </li>
                         <li>He was a student of: Hassan ibn abd alwahab albanna, cheikh khlaid ibn abd arahman al-misry, cheikh Raslan, cheikh khalid ibn abd al-'ala  </li>
-                        <li>He is teaches in university of Ahmed ibn Omar ibn Bâzmol university of cheikh Raslan</li>
+                        <li>He is student in university of Ahmed ibn Omar ibn Bâzmol university of cheikh Raslan</li>
                     </ol>
                 </p>
     </li>
     <li>
-            <h2>Recommendation by cheikh Hassan ibn Abd alwahab albanâ:</h2>
+            <h2>Advice and recommendation of Sheikh Hassan ibn Abd alwahab albanâ:</h2>
             <p>
                 <a href="/images/tazkya.pdf" target="_blank"><img src="/images/pdfIcon.png"/></a>
             </p>
