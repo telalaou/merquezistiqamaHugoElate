@@ -20,3 +20,12 @@
 {{ end }}
 <!-- Main JavaScript -->
 <script src="/js/main.js"></script>
+<script type="application/javascript">
+
+    $('input[type=radio][name=gender]').change(function() {
+        var address = '//formspree.io/';
+        address += this.value==='male' ? 'markezalistiqamah@gmail.com' : 'akhawat.markezalistiqamah@gmail.com';
+        $('#sendQuestion').attr('action',address);
+    });
+
+</script>

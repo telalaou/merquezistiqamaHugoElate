@@ -22,8 +22,17 @@
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
 					<!--<h3>{{ with .Site.Params.contact.form }}{{ . | markdownify }}{{ end }}</h3>-->
-					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
+					<form id="sendQuestion" method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
 					<div class="form-group ">
+						<div class="col-md-6 to-animate">
+							<h3>{{ with .Site.Params.contact.question }}{{ . | markdownify }}{{ end }}</h3>
+							<ul class="fh5co-contact-info">
+								<input id="contactHomme" type="radio" name="gender" value="male"> {{ with .Site.Params.contact.male }}{{ . | markdownify }}{{ end }}<br>
+								<input id="contactFemme" type="radio" name="gender" value="female"> {{ with .Site.Params.contact.female }}{{ . | markdownify }}{{ end }}<br>
+							</ul>
+						</div>
+					</div>
+						<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
 						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">

@@ -9,21 +9,25 @@ theme = "elate"
 title = "Al Istiqamah Institute"
 languageCode = "en-us"
 languageName = "English"
+email = "markezalistiqamah@gmail.com"
 
 [languages.fr]
 title = "Institut Al Istiqamah"
 languageCode = "fr-FR"
 languageName = "France"
+email = "markezalistiqamah@gmail.com"
 
 [languages.ar]
 title = "المركز الإستقامة"
 languageCode = "ar"
 languageName = "العربية"
+email = "markezalistiqamah@gmail.com"
 
 [languages.ru]
 title = "Институт Аль-Истикама"
 languageCode = "ru"
 languageName = "Russe"
+email = "markezalistiqamah@gmail.com"
 
 [languages.ar.params]
   custom_css = ["css/custom1.css", "css/rtl.css"]
@@ -33,8 +37,8 @@ languageName = "Russe"
   custom_css = ["css/custom1.css"]
 
   # Meta
-  author = ""
-  description = ""
+  author = "merkezAlistiquamah"
+  description = "Cours d'arabes en ligne"
   email = "markezalistiqamah@gmail.com"
   # Navigation
   [languages.en.navigation]
@@ -753,6 +757,9 @@ languageName = "Russe"
     form = true
     title = "Contact"
     description = "Pour toutes questions ou demande d'inscription envoyez-nous un message."
+    question = "Vous êtes un(e):"
+    male ="homme"
+    female = "femme"
 
     # Available icons: http://simplelineicons.com/
     details = [
@@ -776,6 +783,9 @@ languageName = "Russe"
     form = true
     title = "Contact"
     description = "For any questions, or request a quote, send us a message."
+    question = "You are a:"
+    male ="man"
+    female = "woman"
 
     # Available icons: http://simplelineicons.com/
     details = [
@@ -799,6 +809,9 @@ languageName = "Russe"
     form = true
     title = "اتصال"
     description = "لأية أسئلة ، أو طلب عرض أسعار ، أرسل لنا رسالة."
+    question = أنت:"
+    male ="رجل"
+    female = "امرأة"
 
     # Available icons: http://simplelineicons.com/
     details = [
@@ -823,6 +836,9 @@ languageName = "Russe"
     form = true
     title = "контакт"
     description = "По любым вопросам или запросите цитату, пришлите нам сообщение."
+    question = "Вы являетесь:"
+    male ="человек"
+    female = "женщина"
 
     # Available icons: http://simplelineicons.com/
     details = [
