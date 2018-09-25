@@ -23,7 +23,7 @@ draft: true
         <p>Nous acceptons les paiements par PayPal.</p>
     </li>
     <li>
-        <h2>Quels sont les tarifs pour coran & aabe?</h2>
+        <h2>Quels sont les tarifs pour coran & arabe?</h2>
         <p><ul><li>Cours individuel : 4 € / heure.</li><li>Cours à deux : 2,5 € / heure.</li><li>Cours collectif (de 3 à 5 élèves maximum) : 2 € / heure</li></ul>.</p>
     </li>
     <li>
@@ -60,7 +60,7 @@ draft: true
                             <li>Cheikh al Albani</li>
                             <li>Imam Muqbil bin Hadi al-Wada'i</li>
                             <li>Imam Rabih bin Hadi al-Madkhali</li>
-                            <li>son frère Shaykh Muhammad ibn Hadi al-Madkhali</li>
+                            <li>Shaykh Muhammad ibn Hadi al-Madkhali</li>
                             <li>cheikh al-Fawzan. </li>
                             <li>Il a assisté aux cours de : Hassan ibn abd alwahab albanna, cheikh khlaid ibn abd arahman al-misry, cheikh Raslan, cheikh khalid ibn abd al-'ala qu'Allah les preserve tous.</li>
                             <li>Il est enseignant dans l'université Ahmed ibn Omar ibn Bâzmol et dans l'université de cheikh Raslan qu'Allah le preserve.</li>
