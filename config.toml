@@ -53,7 +53,7 @@ email = "markezalistiqamah@gmail.com"
     brand = "<div class='logo'></div>"
     home = "Accueil"
     work = "Programmes"
-    testimonials = "Témoinages"
+    testimonials = "Témoignages"
     services = "Services proposés"
     about = "A propos"
     contact = "Contact"
@@ -453,8 +453,8 @@ email = "markezalistiqamah@gmail.com"
   # Testimonials section
   [languages.fr.params.testimonials]
     enable = true
-    title = "Témoinages"
-    description = "Voici quelques avis nos anciens élèves."
+    title = "Témoignages"
+    description = "Voici quelques avis de nos anciens élèves."
 
     [[languages.fr.params.testimonials.item]]
       quote = "&ldquo;Très bonne pédagogie de cours et très bénéfique. Par Allah si l'élève est impliqué et sérieux dans ses révisions il peut très vite progresser et avoir une conversation même basique en arabe.&rdquo;"
@@ -648,7 +648,7 @@ email = "markezalistiqamah@gmail.com"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "Avis"
     description = "Voici quelques avis de nos anciens élèves."
 
@@ -767,7 +767,7 @@ email = "markezalistiqamah@gmail.com"
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
         ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
-        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
+        ["icon-globe", '<a href="https://markezalistiqamah.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
     # Available icons: http://simplelineicons.com/
@@ -793,7 +793,7 @@ email = "markezalistiqamah@gmail.com"
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
         ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
-        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
+        ["icon-globe", '<a href="https://markezalistiqamah.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
     # Available icons: http://simplelineicons.com/
@@ -809,7 +809,7 @@ email = "markezalistiqamah@gmail.com"
     form = true
     title = "اتصال"
     description = "لأية أسئلة ، أو طلب عرض أسعار ، أرسل لنا رسالة."
-    question = أنت:"
+    question = "أنت:"
     male ="رجل"
     female = "امرأة"
 
@@ -819,7 +819,7 @@ email = "markezalistiqamah@gmail.com"
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
         ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
-        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
+        ["icon-globe", '<a href="https://markezalistiqamah.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
     # Available icons: http://simplelineicons.com/
@@ -846,7 +846,7 @@ email = "markezalistiqamah@gmail.com"
         ["icon-phone", "+201007676132"],
         ["icon-envelope", "markezalistiqamah@gmail.com"],
         ["icon-envelope icon-envelope-women", "akhawat.markezalistiqamah@gmail.com"],
-        ["icon-globe", '<a href="https://markez-alistiqama.000webhostapp.com">merkez-al-istiqama.com</a>']
+        ["icon-globe", '<a href="https://markezalistiqamah.000webhostapp.com">merkez-al-istiqama.com</a>']
       ]
 
     # Available icons: http://simplelineicons.com/
