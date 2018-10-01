@@ -37,7 +37,7 @@ email = "markezalistiqamah@gmail.com"
   custom_css = ["css/custom1.css"]
 
   # Meta
-  author = "merkezAlistiquamah"
+  author = "merkezAlistiqamah"
   description = "Cours d'arabes en ligne"
   email = "markezalistiqamah@gmail.com"
   # Navigation
@@ -232,9 +232,9 @@ email = "markezalistiqamah@gmail.com"
 
     [[languages.fr.params.work.row]]
       img = "merkez.png"
-      alt = "Merkez alistiquamah"
-      title = "Merkez alistiquamah"
-      subtitle = "Présentation et tarifs du merkez alistiquamah."
+      alt = "Merkez alistiqamah"
+      title = "Merkez alistiqamah"
+      subtitle = "Présentation et tarifs du merkez alistiqamah."
 
     [[languages.fr.params.work.row]]
       img = "tome1medine_homme.png"
@@ -860,7 +860,7 @@ email = "markezalistiqamah@gmail.com"
   # Footer section
   [languages.fr.params.footer]
     enable = true
-    copyright = '&copy; Institut alistiquamah. Tout droit reservés. <br>Crée par <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">Institut alistiquamah</a> '
+    copyright = '&copy; Institut alistiqamah. Tout droit reservés. <br>Crée par <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">Institut alistiqamah</a> '
     links = [
         ["icon-twitter", "https://twitter.com/malistiqamah"],
         ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
@@ -874,7 +874,7 @@ email = "markezalistiqamah@gmail.com"
         ]
   [languages.en.params.footer]
       enable = true
-      copyright = '&copy; Alistiquamah Institute. all rights reserved. <br>Created by <a href="https://www.facebook.com/markez.alistiqamah" target="_blank"> Alistiquamah Institute</a> '
+      copyright = '&copy; Alistiqamah Institute. all rights reserved. <br>Created by <a href="https://www.facebook.com/markez.alistiqamah" target="_blank"> Alistiqamah Institute</a> '
       links = [
           ["icon-twitter", "https://twitter.com/malistiqamah"],
           ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
