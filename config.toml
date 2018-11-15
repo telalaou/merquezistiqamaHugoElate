@@ -255,22 +255,23 @@ email = "markezalistiqamah@gmail.com"
       subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
 
     [[languages.fr.params.work.row]]
-      img = "tome2MedineFemme.png"
+      img = "tome2medine_femme.png"
       alt = "Tome 2 de Médine"
       title = "Tome 2 de Medine"
       subtitle = "Les tomes de médines sont une référence pour apprendre la langue arabe."
-
-    [[languages.fr.params.work.row]]
-      img = "nouranyaFemmes.png"
-      alt = "Qua'ida an-nouraniyah"
-      title = "An Nouraniyah"
-      subtitle = "Une méthode authentique qui apprend à lire le Coran avec Tajwid."
 
     [[languages.fr.params.work.row]]
       img = "alajroumya.png"
       alt = "alajroumya"
       title = "Explication d'al Ajouroumiyah"
       subtitle = "Avec les explications de cheikh Otheymin, Moqbil,…"
+
+    [[languages.fr.params.work.row]]
+       img = "nouranyaFemmes.png"
+       alt = "Qua'ida an-nouraniyah"
+       title = "An Nouraniyah"
+       subtitle = "Une méthode authentique qui apprend à lire le Coran avec Tajwid."
+
     [[languages.fr.params.work.row]]
       img = "tabirHommes.png"
       alt = "ta'bir a-chafawi"
@@ -296,34 +297,46 @@ email = "markezalistiqamah@gmail.com"
     footertext = ''
 
     [[languages.en.params.work.row]]
+      img = "merkez.png"
+      alt = "Merkez alistiqamah"
+      title = "Merkez alistiqamah"
+      subtitle = "Presentation and fees of merkez alistiqamah."
+
+    [[languages.en.params.work.row]]
+      img = "tome1medine_homme.png"
+      alt = "Madina book level 1 for men"
+      title = "Madina book level 2 for men"
+      subtitle = "Madina books are a reference to learn the Arabic language."
+
+    [[languages.en.params.work.row]]
+      img = "tome2medine_homme.png"
+      alt = "Madina book level 2 for men"
+      title = "Madina book level 2 for men"
+      subtitle = "Madina books are a reference to learn the Arabic language."
+      
+    [[languages.en.params.work.row]]
       img = "tome1femme_final.png"
-      alt = "Madina book level 1"
-      title = "Madina book level 1"
+      alt = "Madina book level 1 for women"
+      title = "Madina book level 1 for women"
       subtitle = "Madina books are a reference to learn the Arabic language."
 
     [[languages.en.params.work.row]]
-      img = "tome2MedineFemme.png"
-      alt = "Madina book level 2"
-      title = "Madina book level 2"
+      img = "tome2medine_femme.png"
+      alt = "Madina book level 2 for women"
+      title = "Madina book level 2 for women"
       subtitle = "Madina books are a reference to learn the Arabic language."
 
     [[languages.en.params.work.row]]
-        img = "tome2MedineFemme.png"
-        alt = "Madina book level 3"
-        title = "Madina book level 3"
-        subtitle = "Madina books are a reference to learn the Arabic language."
+      img = "alajroumya.png"
+      alt = "alajroumya"
+      title = "al Ajroumiyah"
+      subtitle = "With the explanations of cheikh Moqbil ibn Hadi, cheikh ibn al Outheymine,..."
 
     [[languages.en.params.work.row]]
       img = "nouranyaFemmes.png"
       alt = "Qua'ida an-nouraniyah"
       title = "Qua'ida an-nouraniyah"
       subtitle = "An authentic method that teaches you to read the Qur'an with Tajwid."
-
-    [[languages.en.params.work.row]]
-      img = "alajroumya.png"
-      alt = "alajroumya"
-      title = "l Ajroumiyah"
-      subtitle = "With the explanations of cheikh Moqbil ibn Hadi, cheikh ibn al Outheymine,..."
 
     [[languages.en.params.work.row]]
       img = "tabirHommes.png"
@@ -350,22 +363,40 @@ email = "markezalistiqamah@gmail.com"
     footertext = ''
 
     [[languages.ar.params.work.row]]
+      img = "merkez.png"
+      alt = "المركز الإستقامة"
+      title = "المركز الإستقامة"
+      subtitle = "العرض والسعرالمركز الإستقامة"
+
+    [[languages.ar.params.work.row]]
+      img = "tome1medine_homme.png"
+      alt = "كتاب المدينة الأول الرجال"
+      title = "كتاب المدينة الأول الرجال"
+      subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية"
+
+    [[languages.ar.params.work.row]]
+      img = "tome2medine_homme.png"
+      alt = "كتاب المدينة الثاني الرجال"
+      title = "كتاب المدينة الثاني الرجال"
+      subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية"
+
+    [[languages.ar.params.work.row]]
       img = "tome1femme_final.png"
-      alt = "كتاب مدينة الأول"
-      title = "كتاب مدينة الأول"
+      alt = "كتاب المدينة الأول"
+      title = "كتاب المدينة الأول"
       subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية."
 
     [[languages.ar.params.work.row]]
-      img = "tome2MedineFemme.png"
-      alt = "كتاب مدينة الثاني"
-      title = "كتاب مدينة الثاني"
+      img = "tome2medine_femme.png"
+      alt = "كتاب المدينة الثاني"
+      title = "كتاب المدينة الثاني"
       subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية."
 
     [[languages.ar.params.work.row]]
-        img = "tome2MedineFemme.png"
-        alt = "كتاب مدينة التالث"
-        title = "كتاب مدينة التالث"
-        subtitle = "تعتبر كتب المدينة مرجعا لتعلم اللغة العربية."
+      img = "alajroumya.png"
+      alt = "الشرح الاجرومية"
+      title = "الشرح الاجرومية"
+      subtitle = " مع الشرح الشيخ مقبل بن هادي والشيخ صالح بن العثيمين"
 
     [[languages.ar.params.work.row]]
       img = "nouranyaFemmes.png"
@@ -373,11 +404,6 @@ email = "markezalistiqamah@gmail.com"
       title = "القاعدة النورانية"
       subtitle = "طريقة أصيلة تعلمك قراءة القرآن مع التجويد."
 
-    [[languages.ar.params.work.row]]
-      img = "alajroumya.png"
-      alt = "الشرح الاجرومية"
-      title = "الشرح الاجرومية"
-      subtitle = " مع الشرح الشيخ مقبل بن هادي والشيخ صالح بن العثيمين"
     [[languages.ar.params.work.row]]
       img = "tabirHommes.png"
       alt = "التعبر الشفوي"
@@ -403,34 +429,46 @@ email = "markezalistiqamah@gmail.com"
     footertext = ''
 
     [[languages.ru.params.work.row]]
+      img = "merkez.png"
+      alt = "Институт Аль-Истикама"
+      title = "Институт Аль-Истикама"
+      subtitle = "Презентация и тарифы Институт Аль-Истикама."
+
+    [[languages.ru.params.work.row]]
+      img = "tome1medine_homme.png"
+      alt = "Том 1 мужчин Медины"
+      title = "Том 1 мужчин Медины"
+      subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
+
+    [[languages.ru.params.work.row]]
+      img = "tome2medine_homme.png"
+      alt = "Том 2 мужчин Медины"
+      title = "Том 2 мужчин Медины"
+      subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
+
+    [[languages.ru.params.work.row]]
       img = "tome1femme_final.png"
       alt = "Книжка Мадина 1 уровень"
       title = "Книжка Мадина 1 уровень"
       subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
 
     [[languages.ru.params.work.row]]
-      img = "tome2MedineFemme.png"
+      img = "tome2medine_femme.png"
       alt = "Книжка Мадина 2 уровень"
       title = "Книжка Мадина 2 уровень"
       subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
 
     [[languages.ru.params.work.row]]
-        img = "tome2MedineFemme.png"
-        alt = "Книжка Мадина 3 уровень"
-        title = "Книжка Мадина 3 уровень"
-        subtitle = "Книги Мадины - это ссылка на изучение арабского языка."
+          img = "alajroumya.png"
+          alt = "Объяснение ajārūmīya"
+          title = "Объяснение ajārūmīya"
+          subtitle = "С объяснениями шехиха Мокбила ибн Хади, шейха ибн аль аутеимина, ..."
 
     [[languages.ru.params.work.row]]
       img = "nouranyaFemmes.png"
       alt = "Правило света"
       title = "Правило света"
       subtitle = "Подлинный метод, который учит вас читать Коран с Тайвидом."
-
-    [[languages.ru.params.work.row]]
-      img = "alajroumya.png"
-      alt = "Объяснение ajārūmīya"
-      title = "Объяснение ajārūmīya"
-      subtitle = "С объяснениями шехиха Мокбила ибн Хади, шейха ибн аль аутеимина, ..."
 
     [[languages.ru.params.work.row]]
       img = "tabirHommes.png"
