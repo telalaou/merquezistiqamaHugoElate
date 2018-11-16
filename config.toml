@@ -803,8 +803,8 @@ email = "markezalistiqamah@gmail.com"
     details = [
         ["icon-home", "Le Caire, Egypte"],
         ["icon-phone", "+201007676132"],
-        ["icon-envelope", "<img src='/images/emailHommes.png'/>"],
-        ["icon-envelope icon-envelope-women", "<img src='/images/emailFemmes.png'/>"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
       ]
 
@@ -829,8 +829,8 @@ email = "markezalistiqamah@gmail.com"
     details = [
         ["icon-home", "Le Caire, Egypte"],
         ["icon-phone", "+201007676132"],
-        ["icon-envelope", "<img src='/images/emailHommes.png'/>"],
-        ["icon-envelope icon-envelope-women", "<img src='/images/emailFemmes.png'/>"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
       ]
 
@@ -855,8 +855,8 @@ email = "markezalistiqamah@gmail.com"
     details = [
         ["icon-home", "القاهرة ، مصر"],
         ["icon-phone", "+201007676132"],
-        ["icon-envelope", "<img src='/images/emailHommes.png'/>"],
-        ["icon-envelope icon-envelope-women", "<img src='/images/emailFemmes.png'/>"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
       ]
 
@@ -882,8 +882,8 @@ email = "markezalistiqamah@gmail.com"
     details = [
         ["icon-home", "Каир, Египет"],
         ["icon-phone", "+201007676132"],
-        ["icon-envelope", "<img src='/images/emailHommes.png'/>"],
-        ["icon-envelope icon-envelope-women", "<img src='/images/emailFemmes.png'/>"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
       ]
 
