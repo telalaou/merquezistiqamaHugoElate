@@ -802,7 +802,7 @@ email = "markezalistiqamah@gmail.com"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Le Caire, Egypte"],
-        ["icon-phone", "+201007676132"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />Administrateur: +201007676132<br />Directeur: +201021093783"],
         ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
         ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
@@ -828,7 +828,7 @@ email = "markezalistiqamah@gmail.com"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Le Caire, Egypte"],
-        ["icon-phone", "+201007676132"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />Administrator: +201007676132<br />Director:+201021093783"],
         ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
         ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
@@ -854,7 +854,7 @@ email = "markezalistiqamah@gmail.com"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "القاهرة ، مصر"],
-        ["icon-phone", "+201007676132"],
+        ["icon-whattsap", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />+201007676132: مشريف<br />+201021093783:المدير"],
         ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
         ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
@@ -881,7 +881,7 @@ email = "markezalistiqamah@gmail.com"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Каир, Египет"],
-        ["icon-phone", "+201007676132"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />администратор: +201007676132<br />Управляющий делами:+201021093783"],
         ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
         ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
