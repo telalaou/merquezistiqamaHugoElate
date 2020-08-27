@@ -854,7 +854,7 @@ email = "markezalistiqamah@gmail.com"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "القاهرة ، مصر"],
-        ["icon-whattsap", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />+201007676132: مشريف<br />+201021093783:المدير"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />+201007676132: مشريف<br />+201021093783:المدير"],
         ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
         ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
         ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
