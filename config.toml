@@ -18,7 +18,7 @@ languageName = "France"
 email = "markezalistiqamah@gmail.com"
 
 [languages.ar]
-title = "المركز الإستقامة"
+title = "المركز الاستقامــة"
 languageCode = "ar"
 languageName = "العربية"
 email = "markezalistiqamah@gmail.com"
@@ -108,7 +108,7 @@ email = "markezalistiqamah@gmail.com"
     title = "Institut Al Istiqamah"
     subtitle = "Apprenez l’arabe depuis votre domicile en direct de l'Egypte avec des professeurs natifs ayant l’expérience de l’enseignement aux non-arabophones."
   [languages.ar.hero]
-    title = "المركز الإستقامة"
+    title = "المركز الاستقامــة"
     subtitle = "تعلم اللغة العربية من منزلك مباشرة من مصر مع مدرسين أصليين ذوي خبرة تعليمية لغير الناطقين بها."
   [languages.ru.hero]
     title = "Институт Аль-Истикама"
@@ -364,9 +364,9 @@ email = "markezalistiqamah@gmail.com"
 
     [[languages.ar.params.work.row]]
       img = "merkez.png"
-      alt = "المركز الإستقامة"
-      title = "المركز الإستقامة"
-      subtitle = "العرض والسعرالمركز الإستقامة"
+      alt = "المركز الاستقامــة"
+      title = "المركز الاستقامــة"
+      subtitle = "العرض والسعرالمركز الاستقامــة"
 
     [[languages.ar.params.work.row]]
       img = "tome1medine_homme.png"
@@ -905,7 +905,7 @@ email = "markezalistiqamah@gmail.com"
       ]
   [languages.ar.params.footer]
       enable = true
-      copyright = '&copy; المركز الإستقامة. كل الحقوق محفوظة. <br>صنع من قبل <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">المركز الإستقامة</a> '
+      copyright = '&copy; المركز الاستقامــة. كل الحقوق محفوظة. <br>صنع من قبل <a href="https://www.facebook.com/markez.alistiqamah" target="_blank">المركز الاستقامــة</a> '
       links = [
           ["icon-twitter", "https://twitter.com/malistiqamah"],
           ["icon-facebook", "https://www.facebook.com/markez.alistiqamah"]
