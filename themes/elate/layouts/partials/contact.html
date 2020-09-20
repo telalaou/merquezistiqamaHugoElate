@@ -19,9 +19,9 @@
 					{{ end }}
 					</ul>
 				</div>
-				{{ if .Site.Params.contact.form }}
+				<!--{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
-					<!--<h3>{{ with .Site.Params.contact.form }}{{ . | markdownify }}{{ end }}</h3>-->
+					&lt;!&ndash;<h3>{{ with .Site.Params.contact.form }}{{ . | markdownify }}{{ end }}</h3>&ndash;&gt;
 					<form id="sendQuestion" method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
 					<div class="form-group ">
 						<div class="col-md-6 to-animate">
@@ -61,7 +61,7 @@
 					</div>
 					</form>
 				</div>
-				{{ end }}
+				{{ end }}-->
 			</div>
 		</div>
 		{{ if .Site.Params.contact.map }}

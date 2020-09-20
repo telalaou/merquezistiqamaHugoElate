@@ -304,27 +304,27 @@ email = "markezalistiqamah@gmail.com"
 
     [[languages.en.params.work.row]]
       img = "tome1medine_homme.png"
-      alt = "Madina book level 1 for men"
-      title = "Madina book level 2 for men"
-      subtitle = "Madina books are a reference to learn the Arabic language."
+      alt = "Arabic course Madinah islamic University (level 1) for men"
+      title = "Arabic course Madinah islamic University (level 1) for men"
+      subtitle = "Madinah books are a reference to learn the Arabic language."
 
     [[languages.en.params.work.row]]
       img = "tome2medine_homme.png"
-      alt = "Madina book level 2 for men"
-      title = "Madina book level 2 for men"
-      subtitle = "Madina books are a reference to learn the Arabic language."
+      alt = "Arabic course Medina islamic University (level 2)for men"
+      title = "Arabic course Madinah islamic University (level 2) for men"
+      subtitle = "Madinah books are a reference to learn the Arabic language."
       
     [[languages.en.params.work.row]]
       img = "tome1femme_final.png"
-      alt = "Madina book level 1 for women"
-      title = "Madina book level 1 for women"
-      subtitle = "Madina books are a reference to learn the Arabic language."
+      alt = "Arabic course Madinah islamic University (level 1) for women"
+      title = "Arabic course Madinah islamic University (level 1) for women"
+      subtitle = "Madinah books are a reference to learn the Arabic language."
 
     [[languages.en.params.work.row]]
       img = "tome2medine_femme.png"
-      alt = "Madina book level 2 for women"
-      title = "Madina book level 2 for women"
-      subtitle = "Madina books are a reference to learn the Arabic language."
+      alt = "Arabic course Madinah islamic University (level 2) for women"
+      title = "Arabic course Madinah islamic University (level 2) for women"
+      subtitle = "Madinah books are a reference to learn the Arabic language."
 
     [[languages.en.params.work.row]]
       img = "alajroumya.png"
@@ -865,7 +865,7 @@ email = "markezalistiqamah@gmail.com"
     email = "البريد الإلكتروني"
     phone = "هاتف"
     message = "رسالة"
-    button = "إبعث"
+    button = "إرسال"
 
 
 [languages.ru.contact]
@@ -930,7 +930,110 @@ email = "markezalistiqamah@gmail.com"
     message = "Message"
     button = "Envoyer"
 
+[languages.en.subscribe]
+    enable = true
+    map = true
+    form = true
+    title = "Pre registration"
+    description = "For any registration request complete the following form."
+    question = "You are:"
+    male ="man"
+    female = "woman"
 
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Le Caire, Egypte"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />Administrateur: +201021093783<br />Directeur: +201007676132"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
+        ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
+      ]
+
+    # Available icons: http://simplelineicons.com/
+    name = "Lastname"
+    firstName = "Firstname"
+    age = "Age"
+    ageLabel = "years old"
+    email = "Email"
+    phone = "Phone"
+    lessonLabel = "Desired lessons"
+    lessons = ["Quran", "Arabic course Madinah islamic University (level 1)", "Arabic course Madinah islamic University (level 2)", "Explanation of al Ajouroumiyah", "An Nouraniyah", "Oral language"]
+    daysLabel = "Desired days"
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    hoursLabel = "hours"
+    minutesLabel = "minutes"
+    message = "Message"
+    button = "Send"
+
+[languages.ru.subscribe]
+    enable = true
+    map = true
+    form = true
+    title = "Предварительная регистрация"
+    description = "Для любого запроса на регистрацию заполните следующую форму."
+    question = "Ты:"
+    male ="человек"
+    female = "женщина"
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Le Caire, Egypte"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />Administrateur: +201021093783<br />Directeur: +201007676132"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
+        ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
+      ]
+
+    # Available icons: http://simplelineicons.com/
+    name = "Фамилия"
+    firstName = "Имя"
+    age = "Возраст"
+    ageLabel = "лет"
+    email = "Эл. адрес"
+    phone = "Телефон"
+    lessonLabel = "Желаемые уроки"
+    lessons = ["Коран", "Курс арабского языка Университет Медины (уровень 1)", "Курс арабского языка Университет Медины (уровень 2)", "Объяснение аль-Аджурумия", "таджвид", "Устный язык"]
+    daysLabel = "Желаемые дни"
+    days = ["понедельник", "вторник", "Среда", "Четверг", "Пятница", "суббота", "Воскресенье"]
+    hoursLabel = "часы"
+    minutesLabel = "минут"
+    message = "Сообщение"
+    button = "послать"
+
+[languages.ar.subscribe]
+    enable = true
+    map = true
+    form = true
+    title = "التسجيل المسبق"
+    description = "لأي طلب تسجيل أكمل النموذج التالي"
+    question = "أنت:"
+    male ="رجل"
+    female = "مرءة"
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Le Caire, Egypte"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />Administrateur: +201021093783<br />Directeur: +201007676132"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
+        ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
+      ]
+
+    # Available icons: http://simplelineicons.com/
+    name = "الكنية"
+    firstName = "الاسم الاول"
+    age = "عمر"
+    ageLabel = "سنوات"
+    email = "البريد الإلكتروني"
+    phone = "هاتف"
+    lessonLabel = "الدروس المرغوبة"
+    lessons = ["القرآن", "كتاب المدينة الأول", "كتاب المدينة الثاني ", "الشرح الاجرومية", "القاعدة النورانية", "التعبر الشفوي"]
+    daysLabel = "الأيام المرغوبة"
+    days = ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "يوم الجمعة", "يوم السبت", "الأحد"]
+    hoursLabel = "ساعة"
+    minutesLabel = "الدقائق"
+    message = "رسالة"
+    button = "إرسال"
 
   # Footer section
   [languages.fr.params.footer]

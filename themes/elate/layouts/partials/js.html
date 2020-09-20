@@ -35,7 +35,7 @@
         if (availibilityNbre >= 3) {
             return;
         }
-        const template = '<div class="form-group line">\n' +
+        const template = '<div class="form-group line" style="display: none">\n' +
             '                            <select name="days_'+availibilityNbre+'" class="form-control days" required>\n' +
             '                                {{ with .Site.Params.subscribe.daysLabel }}\n' +
             '                                    <option value="" selected disabled>{{ . }}</option>\n' +
@@ -58,18 +58,14 @@
             '                        </div>';
 
 
-        $(template).insertBefore(this);
+        $(template).insertBefore(this).slideDown("slow");
         availibilityNbre++;
     });
     window.addEventListener("DOMContentLoaded", (event) => {
         $('#add-avalaibility').click()
     });
     function removeLine(el) {
-        $(el).closest('.line').remove();
+        $(el).closest('.line').slideUp("slow", function(){ $(this).remove();});
         availibilityNbre--;
-    }
-    function onRegistrationSubmit(form) {
-        console.log(form);
-        return;
     }
 </script>
