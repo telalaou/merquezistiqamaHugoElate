@@ -408,7 +408,7 @@
 
 
 	var contactAnimate = function() {
-		var contact = $('#fh5co-contact');
+		var contact = $('#fh5co-contact, #fh5co-subscribe');
 		if ( contact.length > 0 ) {	
 
 			contact.waypoint( function( direction ) {

@@ -894,6 +894,43 @@ email = "markezalistiqamah@gmail.com"
     message = "сообщение"
     button = "испускать"
 
+# Subscribe section
+[languages.fr.subscribe]
+    enable = true
+    map = true
+    form = true
+    title = "Pré-inscripton"
+    description = "Pour toute demande d'inscription remplissez le formulaire suivant."
+    question = "Vous êtes un(e):"
+    male ="homme"
+    female = "femme"
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Le Caire, Egypte"],
+        ["icon-phone", "<i class='lni lni-telegram-original secondary-icon'>&nbsp;&nbsp;</i><i class='lni lni-whatsapp secondary-icon'></i><br />Administrateur: +201021093783<br />Directeur: +201007676132"],
+        ["icon-envelope", "<img class='img-responsive' src='/images/emailHommes.png'/>"],
+        ["icon-envelope icon-envelope-women", "<img class='img-responsive' src='/images/emailFemmes.png'/>"],
+        ["icon-globe", '<a href="http://markezalistiqamah.com">markezalistiqamah.com</a>']
+      ]
+
+    # Available icons: http://simplelineicons.com/
+    name = "Nom"
+    firstName = "Prénom"
+    age = "Age"
+    ageLabel = "ans"
+    email = "Email"
+    phone = "Téléphone"
+    lessonLabel = "Cours désiré"
+    lessons = ["Coran", "Tome 1 de Médine", "Tome 2 de Médine", "Explication d'al Ajouroumiyah", "An Nouraniyah", "Expression orale"]
+    daysLabel = "jour souhaité"
+    days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    hoursLabel = "heure"
+    minutesLabel = "minutes"
+    message = "Message"
+    button = "Envoyer"
+
+
 
   # Footer section
   [languages.fr.params.footer]

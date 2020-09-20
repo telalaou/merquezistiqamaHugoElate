@@ -1,0 +1,141 @@
+<section id="fh5co-subscribe" data-section="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">{{ with .Site.Params.subscribe.title }}{{ . | markdownify }}{{ end }}</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>{{ with .Site.Params.subscribe.description }}{{ . | markdownify }}{{ end }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-bottom-padded-md">
+            <form id="sendQuestion" method="post" action="//formspree.io/markezalistiqamah@gmail.com" onsubmit="return onRegistrationSubmit()">
+                <div class="row row-bottom-padded-md">
+                    {{ if .Site.Params.subscribe.form }}
+                    <div class="col-md-6 to-animate">
+                            <div class="form-group ">
+                                <select name="gender" id="gender-select" class="form-control gender" required>
+                                    {{ with .Site.Params.subscribe.question }}
+                                        <option value="" selected disabled>{{ . | markdownify }}</option>
+                                    {{ end }}
+                                    {{ with .Site.Params.subscribe.male }}
+                                        <option value="male">{{ . | markdownify }}</option>
+                                    {{end}}
+                                    {{ with .Site.Params.subscribe.female }}
+                                        <option value="female">{{ . | markdownify }}</option>
+                                    {{end}}
+                                </select>
+                            </div>
+                            <div class="form-group ">
+                                {{ with .Site.Params.subscribe.name }}
+                                    <label for="name" class="sr-only">{{ . | markdownify }}</label>
+                                    <input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text" required>
+                                {{ end }}
+                            </div>
+                            <div class="form-group ">
+                                {{ with .Site.Params.subscribe.firstName }}
+                                    <label for="firstName" class="sr-only">{{ . | markdownify }}</label>
+                                    <input id="firstName" class="form-control" name="firstName" placeholder="{{ . }}" type="text" required>
+                                {{ end }}
+                            </div>
+                            <div class="form-group ">
+                                    <select name="age" id="age-select" class="form-control age-menu" required>
+                                        {{ with .Site.Params.subscribe.age }}
+                                            <option value="" selected disabled>{{ . }}</option>
+                                        {{ end }}
+                                        {{ range (seq 99) }}
+                                        <option value="{{ . }}">{{ . }}</option>
+                                        {{end}}
+                                    </select>
+                                {{ with .Site.Params.subscribe.ageLabel }}
+                                    <label for="age-select">{{ . }}</label>
+                                {{ end }}
+                            </div>
+                            <div class="form-group ">
+                                {{ with .Site.Params.subscribe.email }}
+                                    <label for="email" class="sr-only">{{ . | markdownify }}</label>
+                                    <input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email" required>
+                                {{ end }}
+                            </div>
+                            <div class="form-group ">
+                                {{ with .Site.Params.subscribe.phone }}
+                                    <label for="phone" class="sr-only">{{ . | markdownify }}</label>
+                                    <input id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text" required>
+                                {{ end }}
+                            </div>
+                    </div>
+                    <div class="col-md-6 to-animate">
+                        <div id="lessons" class="form-group">
+                            <select name="lessons" class="form-control" required>
+                                {{ with .Site.Params.subscribe.lessonLabel }}
+                                    <option value="" selected disabled>{{ . }}</option>
+                                {{ end }}
+                                {{ range .Site.Params.subscribe.lessons }}
+                                    <option value="{{ . }}">{{ . }}</option>
+                                {{end}}
+                            </select>
+                        </div>
+                        <div id="add-avalaibility" class="add-days">
+                            <i class="lni lni-circle-plus"></i>
+                        </div>
+                        <div class="form-group ">
+                            {{ with .Site.Params.subscribe.message }}
+                            <label for="message" class="sr-only">{{ . | markdownify }}</label>
+                            <textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="form-group submit-button">
+                    <input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    {{ if .Site.Params.subscribe.map }}
+    <div id="map" class="to-animate"></div>
+    {{ end }}
+</section>
+<style>
+    .secondary-icon {
+        margin-right: 0.3em;
+        display: contents;
+    }
+    #fh5co-subscribe .age-menu {
+        width: 33%;
+        display: inline;
+    }
+    #fh5co-subscribe .days {
+        width: 35%;
+        display: inline;
+    }
+    #fh5co-subscribe .hours, #fh5co-subscribe .minutes {
+        width: 25%;
+        display: inline;
+    }
+    #fh5co-subscribe .remove-avalaibility {
+        float: right;
+        border: none;
+        width: 10%;
+        display: block;
+    }
+    #fh5co-subscribe .add-days {
+        text-align: center;
+    }
+    #fh5co-subscribe i.lni {
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    #fh5co-subscribe i.lni-circle-plus:hover {
+        color: #52d3aa;
+    }
+    #fh5co-subscribe i.lni-circle-minus:hover {
+        color: red;
+    }
+    #fh5co-subscribe .submit-button {
+        text-align: end;
+    }
+</style>

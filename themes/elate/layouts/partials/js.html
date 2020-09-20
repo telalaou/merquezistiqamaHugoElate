@@ -22,10 +22,54 @@
 <script src="/js/main.js"></script>
 <script type="application/javascript">
 
+    let availibilityNbre = 0;
+
     $('input[type=radio][name=gender]').change(function() {
         var address = '//formspree.io/';
         address += this.value==='male' ? 'markezalistiqamah@gmail.com' : 'akhawat.markezalistiqamah@gmail.com';
         $('#sendQuestion').attr('action',address);
     });
 
+    //subscribe.html
+    $('#add-avalaibility').click(function() {
+        if (availibilityNbre >= 3) {
+            return;
+        }
+        const template = '<div class="form-group line">\n' +
+            '                            <select name="days_'+availibilityNbre+'" class="form-control days" required>\n' +
+            '                                {{ with .Site.Params.subscribe.daysLabel }}\n' +
+            '                                    <option value="" selected disabled>{{ . }}</option>\n' +
+            '                                {{ end }}\n' +
+            '                                {{ range .Site.Params.subscribe.days }}\n' +
+            '                                    <option value="{{ . }}">{{ . }}</option>\n' +
+            '                                {{end}}\n' +
+            '                            </select>\n' +
+            '                            {{ with .Site.Params.subscribe.hoursLabel }}\n' +
+            '                                <label for="hour_'+availibilityNbre+'"></label>\n' +
+            '                                <input type="number" id="hour"'+availibilityNbre+' class="form-control hours" name="hour_'+availibilityNbre+'" min="0" max="23" placeholder="{{ . }}" required>\n' +
+            '                            {{end}}\n' +
+            '                            {{ with .Site.Params.subscribe.minutesLabel }}\n' +
+            '                                <label for="minute_'+availibilityNbre+'"></label>\n' +
+            '                                <input type="number" id="minute_'+availibilityNbre+'" class="form-control minutes" name="minute_'+availibilityNbre+'" step="30" min="0" max="59" placeholder="{{ . }}" required>\n' +
+            '                            {{end}}' +
+                '                        <div class="remove-avalaibility form-control" onclick="removeLine(this)">\n' +
+                '                            <i class="lni lni-circle-minus"></i>\n' +
+                '                        </div>\n'+
+            '                        </div>';
+
+
+        $(template).insertBefore(this);
+        availibilityNbre++;
+    });
+    window.addEventListener("DOMContentLoaded", (event) => {
+        $('#add-avalaibility').click()
+    });
+    function removeLine(el) {
+        $(el).closest('.line').remove();
+        availibilityNbre--;
+    }
+    function onRegistrationSubmit(form) {
+        console.log(form);
+        return;
+    }
 </script>
