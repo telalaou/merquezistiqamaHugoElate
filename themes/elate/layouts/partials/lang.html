@@ -1,11 +1,20 @@
 <li class="dropdown">
   <button class="btn btn-link dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     {{.Site.Language}}
+    <img class="flag" src="/images/flag-{{ .Site.Language }}.png" />
     <span class="caret"></span>
   </button>
   <ul class="dropdown-menu">
     {{ range $.Site.Home.AllTranslations }}
-      <li><a class="external" href="{{ .Permalink }}">{{ .Language | upper }}</a></li>
+      <li><a class="external" href="{{ .Permalink }}">{{ .Language | upper }} <img class="flag" src="/images/flag-{{ .Language }}.png" /></a></li>
     {{ end }}
   </ul>
 </li>
+<style>
+  .dropdown-menu img.flag {
+    margin-left: 10px;
+  }
+  ul.dropdown-menu {
+    min-width: 0;
+  }
+</style>

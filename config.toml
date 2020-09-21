@@ -49,6 +49,7 @@ email = "markezalistiqamah@gmail.com"
     services = "Services"
     about = "About"
     contact = "Contact"
+    subscribe = "Pre-registration"
   [languages.fr.navigation]
     brand = "<div class='logo'></div>"
     home = "Accueil"
@@ -57,6 +58,7 @@ email = "markezalistiqamah@gmail.com"
     services = "Services proposés"
     about = "A propos"
     contact = "Contact"
+    subscribe = "Pré-inscription"
   [languages.ar.navigation]
       brand = "<div class='logo'></div>"
       home = "الرئيسية"
@@ -65,6 +67,7 @@ email = "markezalistiqamah@gmail.com"
       services = "الخدمات"
       about = "عنا"
       contact = "اتصال"
+      subscribe = "التسجيل المسبق"
   [languages.ru.navigation]
     brand = "<div class='logo'></div>"
     home = "Главная"
@@ -73,6 +76,7 @@ email = "markezalistiqamah@gmail.com"
     services = "услуги"
     about = "Около"
     contact = "контакт"
+    subscribe = "Предварительная регистрация"
     # You can add custom links before or after the default links
     # Assign a weight to define the order
 
